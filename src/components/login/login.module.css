@@ -1,0 +1,26 @@
+@value makerWhite, makerBlueBottle from '../../common/colors.css';
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+}
+
+.google {
+  margin-right: 10px;
+}
+
+.google,
+.github {
+  width: 50%;
+  height: 35px;
+  border: 0;
+  border-radius: 4px;
+  background-color: makerWhite;
+  color: makerBlueBottle;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

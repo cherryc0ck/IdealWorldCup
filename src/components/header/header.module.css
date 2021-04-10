@@ -1,0 +1,23 @@
+@value makerBlueBottle, makerWhite from '../../common/colors.css';
+
+.header {
+  flex-basis: 30%;
+  height: 100vh;
+  background-color: makerBlueBottle;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.title {
+  margin-bottom: 20px;
+  border-bottom: 3px solid makerWhite;
+  color: makerWhite;
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}

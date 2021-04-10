@@ -1,0 +1,7 @@
+@value makerWhite from '../../common/colors.css';
+
+.main {
+  flex-basis: 70%;
+  border: 1px solid black;
+  background-color: makerWhite;
+}
