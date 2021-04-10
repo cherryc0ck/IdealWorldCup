@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useHistory } from 'react-router';
 import Login from '../login/login';
 import styles from './header.module.css';
 
-const Header = (props) => {
+const Header = ({ authService }) => {
+  const history = useHistory();
+
+  const onLogout = () =>{
+    authService.logout();
+  };
+
+
   return (
   <header className={styles.header}>
     <div className={styles.container}>
@@ -13,7 +21,7 @@ const Header = (props) => {
         <br/>
         world-cup
       </h1>
-      <Login />
+      <Login authService={authService} onLogout={onLogout} />
       <p>
       이상형 월드컵을 직접 진행 해보고 만들수도 있어요!
       당신의 이상형은 누구인가요? 당신이 제일 좋아하는 과일은 무엇이죠?

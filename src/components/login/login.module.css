@@ -8,12 +8,12 @@ button:focus {
   display: flex;
 }
 
-.google {
+.google,
+.mypage {
   margin-right: 10px;
 }
 
-.google,
-.github {
+button {
   width: 50%;
   height: 35px;
   border: 0;
