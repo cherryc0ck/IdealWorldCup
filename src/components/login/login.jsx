@@ -2,13 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import styles from './login.module.css';
 
-const Login = ({ authService, onLogout }) => {
-  const [isLogined, setIsLogined] = useState(false);
+const Login = ({ authService }) => {
 
   const history = useHistory();
 
   const logined = (userId) => {
     history.push({ state:{id: userId} });
+    fuck();
+  };
+
+  const logouted = () => {
+    history.push({
+      pathname: '/',
+      state: {id: undefined} 
+    });
+    fuck();
   };
 
   const onLogin = (event) =>{
@@ -17,37 +25,54 @@ const Login = ({ authService, onLogout }) => {
     .then(data => logined(data.user.uid))
   };
 
+  const onLogout = () =>{
+    authService.logout();
+    logouted();
+  };
 
+  const onMypage = () =>{
+    history.push({
+      pathname:'/mypage',
+    });
+  }
 
   useEffect(()=>{
     authService //
     .onAuthChange(user => {
-      if(user){
-        setIsLogined(true);
-        console.log(history.location.state);
-      }else{
-        setIsLogined(false);
-        console.log(history.location.state);
-      }
+      user && logined(user.uid);
     })
   });
 
+  const [isLogin, setIsLogin] = useState();
+
+  const fuck = ()=>{
+    if(history.location.state.id){
+       setIsLogin(history.location.state.id);
+       console.log(isLogin);
+       console.log(history.location.state.id);
+    }
+    else{
+      setIsLogin(undefined);
+      console.log(isLogin);
+      console.log(history.location.state.id);
+    }
+  };
+
   return(
     <div className={styles.container}>
-      {isLogined &&( 
-        <>
-          <button className={styles.mypage}>My Page</button>
-          <button className={styles.logout} onClick={onLogout}>Logout</button>
-        </>
-      )}
-      {isLogined ||( 
+      {isLogin === undefined || history.location.state.id === undefined   ?
         <>
           <button className={styles.google} onClick={onLogin}>Google</button>
           <button className={styles.github} onClick={onLogin}>Github</button>
         </>
-      )}
+        :
+        <>
+          <button className={styles.mypage} onClick={onMypage}>My Page</button>
+          <button className={styles.logout} onClick={onLogout}>Logout</button>
+        </>
+      }
     </div>
-  )
-};
+  );
+}
 
 export default Login;

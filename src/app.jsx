@@ -10,7 +10,7 @@ function App({ authService }) {
       <Header authService={authService} />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
+          <Route exact path={["/", "/home"]}>
             <Main />
           </Route>
           <Route path="/mypage">
