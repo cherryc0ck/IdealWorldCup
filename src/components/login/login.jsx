@@ -8,7 +8,7 @@ const Login = ({ authService }) => {
 
   const logined = (userId) => {
     history.push({ state:{id: userId} });
-    fuck();
+    maing();
   };
 
   const logouted = () => {
@@ -16,7 +16,7 @@ const Login = ({ authService }) => {
       pathname: '/',
       state: {id: undefined} 
     });
-    fuck();
+    maing();
   };
 
   const onLogin = (event) =>{
@@ -45,7 +45,7 @@ const Login = ({ authService }) => {
 
   const [isLogin, setIsLogin] = useState();
 
-  const fuck = ()=>{
+  const maing = ()=>{
     if(history.location.state.id){
        setIsLogin(history.location.state.id);
        console.log(isLogin);
