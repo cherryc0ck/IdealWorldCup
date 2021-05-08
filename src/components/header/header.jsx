@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Login from '../login/login';
 import styles from './header.module.css';
 
-const Header = ({ authService }) => {
+const Header = ({ authService, onLogout }) => {
 
   return (
   <header className={styles.header}>
@@ -14,7 +14,7 @@ const Header = ({ authService }) => {
         <br/>
         world-cup
       </h1>
-      <Login authService={authService}  />
+      <Login authService={authService} onLogout={onLogout} />
     </div>
   </header>
   )
