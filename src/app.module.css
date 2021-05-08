@@ -1,3 +1,5 @@
+@value makerGrey from './common/colors.css';
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,4 +15,5 @@ ul {
 }
 .app {
   display: flex;
+  background-color: makerGrey;
 }
