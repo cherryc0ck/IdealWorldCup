@@ -1,0 +1,15 @@
+{
+  "category" : [
+    {
+      "title" : "food",
+      "img1" : "foodIntro1.jpg",
+      "img2" : "foodIntro2.jpg"
+    },
+
+    {
+      "title" : "girl",
+      "img1" : "girlIntro1.jpg",
+      "img2" : "girlIntro2.jpg"
+    }
+  ]
+}
