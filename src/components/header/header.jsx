@@ -1,10 +1,8 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router';
 import Login from '../login/login';
 import styles from './header.module.css';
 
 const Header = ({ authService }) => {
-  const history = useHistory();
 
   return (
   <header className={styles.header}>
