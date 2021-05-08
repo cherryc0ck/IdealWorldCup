@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router';
+import GameList from '../gameList/game_list';
 import Header from '../header/header';
 import styles from './main.module.css';
 
@@ -13,11 +14,7 @@ const Main = ({authService}) => {
     <section className={styles.container}>
       <Header authService={authService} onLogout={onLogout} />
       <main className={styles.main}>
-        <ul>
-          <li>
-            이상형 월드컵
-          </li>
-        </ul>
+        <GameList />
       </main>
     </section>
   )   
