@@ -1,6 +1,6 @@
 @value makerBlack from '../../common/colors.css';
-@value makerLightGrey from '../../common/colors.css';
 @value makerWhite from '../../common/colors.css';
+@value makerBlueBottle from '../../common/colors.css';
 
 .game {
   display: flex;
@@ -30,7 +30,7 @@
 }
 
 .title {
-  padding: 5px 0;
+  padding: 10px 0;
   color: makerBlack;
   font-size: 18px;
   font-weight: 500;
@@ -39,6 +39,11 @@
 }
 
 .button {
-  border: 1px solid #189cc4;
+  border: 1px solid makerBlueBottle;
   border-radius: 10px;
+}
+.button:hover {
+  background-color: makerBlueBottle;
+  color: makerWhite;
+  transition: all 250ms;
 }
