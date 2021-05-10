@@ -1,15 +1,27 @@
 {
   "category" : [
     {
-      "title" : "food",
-      "img1" : "foodIntro1.jpg",
-      "img2" : "foodIntro2.jpg"
+      "index" : 0,
+      "title" : "최애음식 월드컵",
+      "img" : "./images/game/food.jpg"
     },
 
     {
-      "title" : "girl",
-      "img1" : "girlIntro1.jpg",
-      "img2" : "girlIntro2.jpg"
+      "index" : 1,
+      "title" : "여자 아이돌 이상형 월드컵",
+      "img" : "./images/game/girl.jpg"
+    },
+
+    {
+      "index" : 2,
+      "title" : "여자 아이돌 이상형 월드컵",
+      "img" : "./images/game/girl.jpg"
+    },
+
+    {
+      "index" : 3,
+      "title" : "여자 아이돌 이상형 월드컵",
+      "img" : "./images/game/girl.jpg"
     }
   ]
 }

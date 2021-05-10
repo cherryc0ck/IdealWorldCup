@@ -1,0 +1,44 @@
+@value makerBlack from '../../common/colors.css';
+@value makerLightGrey from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+
+.game {
+  display: flex;
+  width: 25%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin: 0.6em;
+  background-color: makerWhite;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 200px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  padding: 5px 0;
+  color: makerBlack;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid #189cc4;
+  border-radius: 10px;
+}

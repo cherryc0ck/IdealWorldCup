@@ -1,8 +1,9 @@
 @value makerWhite from '../../common/colors.css';
+@value makerLightGrey from '../../common/colors.css';
 
 .main {
   flex-basis: 70%;
-  background-color: makerWhite;
+  background-color: makerLightGrey;
 }
 
 .container {
