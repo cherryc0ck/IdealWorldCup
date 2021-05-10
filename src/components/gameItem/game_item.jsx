@@ -34,6 +34,7 @@ const GameItem = ({game}) => {
             open={modalOpen}
             close={closeModal}
             title={game.title}
+            game={game}
         />
       </li>
     </>
