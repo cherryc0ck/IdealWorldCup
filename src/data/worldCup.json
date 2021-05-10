@@ -3,25 +3,175 @@
     {
       "index" : 0,
       "title" : "최애음식 월드컵",
-      "img" : "./images/game/food.jpg"
+      "img" : "./images/game/rep/food.jpg",
+      "items" : [
+        {
+          "name" : "봉지라면",
+          "src" : "./images/game/food/bagRamen.jpg"
+        },
+
+        {
+          "name" : "자장면",
+          "src" : "./images/game/food/blackNoodles.jpg"
+        },
+
+        {
+          "name" : "치킨",
+          "src" : "./images/game/food/chicken.jpg"
+        },
+
+        {
+          "name" : "햄버거",
+          "src" : "./images/game/food/hamburger.jfif"
+        },
+
+        {
+          "name" : "일본식 라멘",
+          "src" : "./images/game/food/japanRamen.jpg"
+        },
+
+        {
+          "name" : "김밥",
+          "src" : "./images/game/food/kimbob.jpg"
+        },
+
+        {
+          "name" : "김치찌개",
+          "src" : "./images/game/food/kimchiStew.jpg"
+        },
+
+        {
+          "name" : "마라탕",
+          "src" : "./images/game/food/maratang.jpg"
+        },
+
+        {
+          "name" : "피자",
+          "src" : "./images/game/food/pizza.jpg"
+        },
+
+        {
+          "name" : "돈까스",
+          "src" : "./images/game/food/porkCutlet.jpg"
+        },
+
+        {
+          "name" : "된장찌개",
+          "src" : "./images/game/food/soybeanPasteStew.jpg"
+        },
+
+        {
+          "name" : "수제비",
+          "src" : "./images/game/food/sujebi.jpg"
+        },
+
+        {
+          "name" : "초밥",
+          "src" : "./images/game/food/sushi.jpg"
+        },
+
+        {
+          "name" : "다코야끼",
+          "src" : "./images/game/food/takoyaki.jpg"
+        },
+
+        {
+          "name" : "떡만두국",
+          "src" : "./images/game/food/tteogmandugug.jpg"
+        },
+
+        {
+          "name" : "떡볶이",
+          "src" : "./images/game/food/tteokbokki.jpg"
+        }
+      ]
     },
 
     {
       "index" : 1,
-      "title" : "여자 아이돌 이상형 월드컵",
-      "img" : "./images/game/girl.jpg"
-    },
+      "title" : "최애음식 월드컵",
+      "img" : "./images/game/rep/food.jpg",
+      "items" : [
+        {
+          "name" : "봉지라면",
+          "src" : "./images/game/food/bagRamen.jpg"
+        },
 
-    {
-      "index" : 2,
-      "title" : "여자 아이돌 이상형 월드컵",
-      "img" : "./images/game/girl.jpg"
-    },
+        {
+          "name" : "자장면",
+          "src" : "./images/game/food/blackNoodles.jpg"
+        },
 
-    {
-      "index" : 3,
-      "title" : "여자 아이돌 이상형 월드컵",
-      "img" : "./images/game/girl.jpg"
+        {
+          "name" : "치킨",
+          "src" : "./images/game/food/chicken.jpg"
+        },
+
+        {
+          "name" : "햄버거",
+          "src" : "./images/game/food/hamburger.jfif"
+        },
+
+        {
+          "name" : "일본식 라멘",
+          "src" : "./images/game/food/japanRamen.jpg"
+        },
+
+        {
+          "name" : "김밥",
+          "src" : "./images/game/food/kimbob.jpg"
+        },
+
+        {
+          "name" : "김치찌개",
+          "src" : "./images/game/food/kimchiStew.jpg"
+        },
+
+        {
+          "name" : "마라탕",
+          "src" : "./images/game/food/maratang.jpg"
+        },
+
+        {
+          "name" : "피자",
+          "src" : "./images/game/food/pizza.jpg"
+        },
+
+        {
+          "name" : "돈까스",
+          "src" : "./images/game/food/porkCutlet.jpg"
+        },
+
+        {
+          "name" : "된장찌개",
+          "src" : "./images/game/food/soybeanPasteStew.jpg"
+        },
+
+        {
+          "name" : "수제비",
+          "src" : "./images/game/food/sujebi.jpg"
+        },
+
+        {
+          "name" : "초밥",
+          "src" : "./images/game/food/sushi.jpg"
+        },
+
+        {
+          "name" : "다코야끼",
+          "src" : "./images/game/food/takoyaki.jpg"
+        },
+
+        {
+          "name" : "떡만두국",
+          "src" : "./images/game/food/tteogmandugug.jpg"
+        },
+
+        {
+          "name" : "떡볶이",
+          "src" : "./images/game/food/tteokbokki.jpg"
+        }
+      ]
     }
   ]
 }
