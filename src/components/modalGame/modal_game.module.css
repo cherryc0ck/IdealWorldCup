@@ -1,3 +1,6 @@
+@value makerWhite from '../../common/colors.css';
+@value makerBlack from '../../common/colors.css';
+
 .main {
   position:relative;
   margin:10px 0;
@@ -8,30 +11,46 @@
 
 .container{
   display:flex;
-  justify-content:space-between;
+  flex-wrap:wrap;
+  justify-content:center;
   width:100%;
 }
 
 .pick{
-  width:45%;
+  position:relative;
+  width:50%;
+  cursor:pointer;
 }
 
 .imgContainer{
   width:100%;
   height:450px;
+  background-color:makerBlack;
+  overflow:hidden;
 }
 
 .img{
   width:100%;
   height:100%;
+  transition:all 0.3s;
+}
+
+.img:hover{
+  transform:scale(1.05);
+  opacity:0.8;
 }
 
 .name{
-  padding:10px 0;
-  background-color:#151515;
-  color:#fff;
-  font-size:38px;
-  text-align:center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: makerBlack;
+  color: makerWhite;
+  font-size: 20px;
+  text-align: center;
 }
 
 .vs{

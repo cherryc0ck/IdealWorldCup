@@ -49,6 +49,12 @@ button {
   font-weight: 500;
   color: makerBlack;
   background-color: makerWhite;
+  transition:all 0.2s;
+}
+
+.headerBtn:hover{
+  background-color:makerRaven;
+  color:makerWhite;
 }
 
 .main {
