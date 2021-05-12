@@ -89,6 +89,180 @@
 
     {
       "index" : 1,
+      "title" : "여자연예인 월드컵",
+      "img" : "./images/game/rep/girl.jpg",
+      "items" : [
+        {
+          "name" : "헤이즈",
+          "src" : "./images/game/girl/haze.jpg"
+        },
+
+        {
+          "name" : "아이린",
+          "src" : "./images/game/girl/Irene.jpg"
+        },
+
+        {
+          "name" : "아이유",
+          "src" : "./images/game/girl/IU.jpg"
+        },
+
+        {
+          "name" : "제니",
+          "src" : "./images/game/girl/Jennie.jpg"
+        },
+
+        {
+          "name" : "조보아",
+          "src" : "./images/game/girl/JoBoa.jpg"
+        },
+
+        {
+          "name" : "김사랑",
+          "src" : "./images/game/girl/KimSaRang.jpg"
+        },
+
+        {
+          "name" : "김소연",
+          "src" : "./images/game/girl/KimSoYean.jpg"
+        },
+
+        {
+          "name" : "김태희",
+          "src" : "./images/game/girl/KimTaeHee.jpg"
+        },
+
+        {
+          "name" : "김태리",
+          "src" : "./images/game/girl/KimTaeRi.jpg"
+        },
+
+        {
+          "name" : "이지아",
+          "src" : "./images/game/girl/LeeJia.jpg"
+        },
+
+        {
+          "name" : "박신혜",
+          "src" : "./images/game/girl/ParkShinHye.jpg"
+        },
+
+        {
+          "name" : "신혜선",
+          "src" : "./images/game/girl/SinHyeSun.jpg"
+        },
+
+        {
+          "name" : "손담비",
+          "src" : "./images/game/girl/SonDamBie.jpg"
+        },
+
+        {
+          "name" : "손예진",
+          "src" : "./images/game/girl/SonYeJin.jpg"
+        },
+
+        {
+          "name" : "수지",
+          "src" : "./images/game/girl/SuGee.jpg"
+        },
+
+        {
+          "name" : "유인나",
+          "src" : "./images/game/girl/YooInNa.jpg"
+        }
+      ]
+    },
+
+    {
+      "index" : 2,
+      "title" : "최애음식 월드컵",
+      "img" : "./images/game/rep/food.jpg",
+      "items" : [
+        {
+          "name" : "봉지라면",
+          "src" : "./images/game/food/bagRamen.jpg"
+        },
+
+        {
+          "name" : "자장면",
+          "src" : "./images/game/food/blackNoodles.jpg"
+        },
+
+        {
+          "name" : "치킨",
+          "src" : "./images/game/food/chicken.jpg"
+        },
+
+        {
+          "name" : "햄버거",
+          "src" : "./images/game/food/hamburger.jfif"
+        },
+
+        {
+          "name" : "일본식 라멘",
+          "src" : "./images/game/food/japanRamen.jpg"
+        },
+
+        {
+          "name" : "김밥",
+          "src" : "./images/game/food/kimbob.jpg"
+        },
+
+        {
+          "name" : "김치찌개",
+          "src" : "./images/game/food/kimchiStew.jpg"
+        },
+
+        {
+          "name" : "마라탕",
+          "src" : "./images/game/food/maratang.jpg"
+        },
+
+        {
+          "name" : "피자",
+          "src" : "./images/game/food/pizza.jpg"
+        },
+
+        {
+          "name" : "돈까스",
+          "src" : "./images/game/food/porkCutlet.jpg"
+        },
+
+        {
+          "name" : "된장찌개",
+          "src" : "./images/game/food/soybeanPasteStew.jpg"
+        },
+
+        {
+          "name" : "수제비",
+          "src" : "./images/game/food/sujebi.jpg"
+        },
+
+        {
+          "name" : "초밥",
+          "src" : "./images/game/food/sushi.jpg"
+        },
+
+        {
+          "name" : "다코야끼",
+          "src" : "./images/game/food/takoyaki.jpg"
+        },
+
+        {
+          "name" : "떡만두국",
+          "src" : "./images/game/food/tteogmandugug.jpg"
+        },
+
+        {
+          "name" : "떡볶이",
+          "src" : "./images/game/food/tteokbokki.jpg"
+        }
+      ]
+    },
+
+    {
+      "index" : 3,
       "title" : "최애음식 월드컵",
       "img" : "./images/game/rep/food.jpg",
       "items" : [
