@@ -2,7 +2,7 @@
   "category" : [
     {
       "index" : 0,
-      "title" : "최애음식 월드컵",
+      "title" : "음식 월드컵",
       "img" : "./images/game/rep/food.jpg",
       "items" : [
         {
@@ -263,87 +263,87 @@
 
     {
       "index" : 3,
-      "title" : "최애음식 월드컵",
-      "img" : "./images/game/rep/food.jpg",
+      "title" : "애니메이션 남자캐릭터 월드컵",
+      "img" : "./images/game/cartoonMale/오리하라이자야.jpg",
       "items" : [
         {
-          "name" : "봉지라면",
-          "src" : "./images/game/food/bagRamen.jpg"
+          "name" : "롤로노아 조로",
+          "src" : "./images/game/cartoonMale/롤로노아조로.jpg"
         },
 
         {
-          "name" : "자장면",
-          "src" : "./images/game/food/blackNoodles.jpg"
+          "name" : "몽키D루피",
+          "src" : "./images/game/cartoonMale/몽키d루피.jpg"
         },
 
         {
-          "name" : "치킨",
-          "src" : "./images/game/food/chicken.jpg"
+          "name" : "리바이",
+          "src" : "./images/game/cartoonMale/리바이.jpg"
         },
 
         {
-          "name" : "햄버거",
-          "src" : "./images/game/food/hamburger.jfif"
+          "name" : "사이타마",
+          "src" : "./images/game/cartoonMale/사이타마.jpg"
         },
 
         {
-          "name" : "일본식 라멘",
-          "src" : "./images/game/food/japanRamen.jpg"
+          "name" : "셋쇼마루",
+          "src" : "./images/game/cartoonMale/셋쇼마루.jpg"
         },
 
         {
-          "name" : "김밥",
-          "src" : "./images/game/food/kimbob.jpg"
+          "name" : "신드바드",
+          "src" : "./images/game/cartoonMale/신드바드.jpg"
         },
 
         {
-          "name" : "김치찌개",
-          "src" : "./images/game/food/kimchiStew.jpg"
+          "name" : "아리마 키쇼",
+          "src" : "./images/game/cartoonMale/아리마키쇼.jpg"
         },
 
         {
-          "name" : "마라탕",
-          "src" : "./images/game/food/maratang.jpg"
+          "name" : "오리하라 이자야",
+          "src" : "./images/game/cartoonMale/오리하라이자야.jpg"
         },
 
         {
-          "name" : "피자",
-          "src" : "./images/game/food/pizza.jpg"
+          "name" : "우즈마키 나루토",
+          "src" : "./images/game/cartoonMale/우즈마키나루토.jpg"
         },
 
         {
-          "name" : "돈까스",
-          "src" : "./images/game/food/porkCutlet.jpg"
+          "name" : "우치하사스케",
+          "src" : "./images/game/cartoonMale/우치하사스케.jpg"
         },
 
         {
-          "name" : "된장찌개",
-          "src" : "./images/game/food/soybeanPasteStew.jpg"
+          "name" : "이누야샤",
+          "src" : "./images/game/cartoonMale/이누야샤.jpg"
         },
 
         {
-          "name" : "수제비",
-          "src" : "./images/game/food/sujebi.jpg"
+          "name" : "카네키 켄",
+          "src" : "./images/game/cartoonMale/카네키켄.jpg"
         },
 
         {
-          "name" : "초밥",
-          "src" : "./images/game/food/sushi.jpg"
+          "name" : "카마도 탄지로",
+          "src" : "./images/game/cartoonMale/카마도탄지로.jpg"
         },
 
         {
-          "name" : "다코야끼",
-          "src" : "./images/game/food/takoyaki.jpg"
+          "name" : "트라팔가 로우",
+          "src" : "./images/game/cartoonMale/트라팔가로우.jpg"
         },
 
         {
-          "name" : "떡만두국",
-          "src" : "./images/game/food/tteogmandugug.jpg"
+          "name" : "하울",
+          "src" : "./images/game/cartoonMale/하울.jpg"
         },
 
         {
-          "name" : "떡볶이",
-          "src" : "./images/game/food/tteokbokki.jpg"
+          "name" : "헤이와지마 시즈오",
+          "src" : "./images/game/cartoonMale/헤이와지마시즈오.jpg"
         }
       ]
     }
