@@ -346,6 +346,92 @@
           "src" : "./images/game/cartoonMale/헤이와지마시즈오.jpg"
         }
       ]
+    },
+    {
+      "index" : 4,
+      "title" : "해외영화 월드컵",
+      "img" : "./images/game/overseasMovies/테넷.jpg",
+      "items" : [
+        {
+          "name" : "나비효과",
+          "src" : "./images/game/overseasMovies/나비효과.jpg"
+        },
+
+        {
+          "name" : "라라랜드",
+          "src" : "./images/game/overseasMovies/라라랜드.jpg"
+        },
+
+        {
+          "name" : "메멘토",
+          "src" : "./images/game/overseasMovies/메멘토.jpg"
+        },
+
+        {
+          "name" : "셔터아일랜드",
+          "src" : "./images/game/overseasMovies/셔터아일랜드.jpg"
+        },
+
+        {
+          "name" : "쇼생크탈출",
+          "src" : "./images/game/overseasMovies/쇼생크탈출.jpg"
+        },
+
+        {
+          "name" : "아이덴티티",
+          "src" : "./images/game/overseasMovies/아이덴티티.jpg"
+        },
+
+        {
+          "name" : "어벤져스",
+          "src" : "./images/game/overseasMovies/어벤져스.jpg"
+        },
+
+        {
+          "name" : "월요일이 사라졌다.",
+          "src" : "./images/game/overseasMovies/월요일이사라졌다.jpg"
+        },
+
+        {
+          "name" : "유주얼서스펙트",
+          "src" : "./images/game/overseasMovies/유주얼서스펙트.jpg"
+        },
+
+        {
+          "name" : "인셉션",
+          "src" : "./images/game/overseasMovies/인셉션.jpg"
+        },
+
+        {
+          "name" : "인터스텔라",
+          "src" : "./images/game/overseasMovies/인터스텔라.jpg"
+        },
+
+        {
+          "name" : "킹스맨",
+          "src" : "./images/game/overseasMovies/킹스맨.jpg"
+        },
+
+        {
+          "name" : "테넷",
+          "src" : "./images/game/overseasMovies/테넷.jpg"
+        },
+
+        {
+          "name" : "트루먼쇼",
+          "src" : "./images/game/overseasMovies/트루먼쇼.jpg"
+        },
+
+        {
+          "name" : "파이트클럽",
+          "src" : "./images/game/overseasMovies/파이트클럽.jpg"
+        },
+
+        {
+          "name" : "혹성탈출",
+          "src" : "./images/game/overseasMovies/혹성탈출.jpg"
+        }
+      ]
     }
   ]
 }
