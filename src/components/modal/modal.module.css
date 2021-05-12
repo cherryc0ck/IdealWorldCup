@@ -20,7 +20,7 @@ button {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   border-radius: 0.6em;
   background-color: makerWhite;
@@ -31,9 +31,9 @@ button {
 .header {
   position: relative;
   padding: 10px 0;
-  background-color: makerBlueBottle;
+  background-color: makerBlack;
   color: makerWhite;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 500;
   text-align: center;
 }
@@ -44,17 +44,17 @@ button {
   top: 0;
   right: 1%;
   transform: translateY(50%);
-  width: 100px;
+  width: 50px;
   font-size: 30px;
   font-weight: 500;
   color: makerBlack;
   background-color: makerWhite;
-  transition:all 0.2s;
+  transition: all 0.2s;
 }
 
-.headerBtn:hover{
-  background-color:makerRaven;
-  color:makerWhite;
+.headerBtn:hover {
+  background-color: makerRaven;
+  color: makerWhite;
 }
 
 .main {
@@ -108,4 +108,10 @@ button {
   to {
     opacity: 1;
   }
+}
+
+.test {
+  width: 600px;
+  height: 50px;
+  border: 1px solid black;
 }

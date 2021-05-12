@@ -1,4 +1,4 @@
-@value makerWhite, makerBlueBottle from '../../common/colors.css';
+@value makerBlack, makerWhite, makerBlueBottle from '../../common/colors.css';
 
 button:focus {
   outline: none;
@@ -19,7 +19,7 @@ button {
   border: 0;
   border-radius: 4px;
   background-color: makerWhite;
-  color: makerBlueBottle;
+  color: makerBlack;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;

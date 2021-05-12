@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './modal.module.css';
 import ModalGame from '../modalGame/modal_game';
+import Progressbar from '../progressbar/progressbar';
 
 const Modal = ({game, open, close, title}) => {
 
@@ -14,7 +15,7 @@ const Modal = ({game, open, close, title}) => {
           </header>
           <ModalGame game={game} />
           <footer className={styles.footer}>
-            <button className={styles.footerBtn} onClick={close}>close</button>
+            <Progressbar />
           </footer>
         </section>
       ): null}

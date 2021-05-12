@@ -124,7 +124,7 @@
 
         {
           "name" : "김소연",
-          "src" : "./images/game/girl/KimSoYean.jpg"
+          "src" : "./images/game/girl/KimSoYeon.jpg"
         },
 
         {
@@ -149,12 +149,12 @@
 
         {
           "name" : "신혜선",
-          "src" : "./images/game/girl/SinHyeSun.jpg"
+          "src" : "./images/game/girl/ShinHyeSun.jpg"
         },
 
         {
           "name" : "손담비",
-          "src" : "./images/game/girl/SonDamBie.jpg"
+          "src" : "./images/game/girl/SonDamBi.jpg"
         },
 
         {
@@ -164,7 +164,7 @@
 
         {
           "name" : "수지",
-          "src" : "./images/game/girl/SuZy.jpg"
+          "src" : "./images/game/girl/Suzi.jpg"
         },
 
         {
@@ -176,87 +176,87 @@
 
     {
       "index" : 2,
-      "title" : "최애음식 월드컵",
-      "img" : "./images/game/rep/food.jpg",
+      "title" : "남자연예인 월드컵",
+      "img" : "./images/game/boy/YeoJinGu.jpg",
       "items" : [
         {
-          "name" : "봉지라면",
-          "src" : "./images/game/food/bagRamen.jpg"
+          "name" : "차은우",
+          "src" : "./images/game/boy/ChaEunWoo.jpg"
         },
 
         {
-          "name" : "자장면",
-          "src" : "./images/game/food/blackNoodles.jpg"
+          "name" : "공유",
+          "src" : "./images/game/boy/GongYou.jpg"
         },
 
         {
-          "name" : "치킨",
-          "src" : "./images/game/food/chicken.jpg"
+          "name" : "황민현",
+          "src" : "./images/game/boy/HwangMinHyun.jpg"
         },
 
         {
-          "name" : "햄버거",
-          "src" : "./images/game/food/hamburger.jfif"
+          "name" : "현빈",
+          "src" : "./images/game/boy/HyunBin.jpg"
         },
 
         {
-          "name" : "일본식 라멘",
-          "src" : "./images/game/food/japanRamen.jpg"
+          "name" : "박재범",
+          "src" : "./images/game/boy/JayPark.jpg"
         },
 
         {
-          "name" : "김밥",
-          "src" : "./images/game/food/kimbob.jpg"
+          "name" : "정해인",
+          "src" : "./images/game/boy/JungHaEin.jpg"
         },
 
         {
-          "name" : "김치찌개",
-          "src" : "./images/game/food/kimchiStew.jpg"
+          "name" : "강다니엘",
+          "src" : "./images/game/boy/KangDaniel.jpg"
         },
 
         {
-          "name" : "마라탕",
-          "src" : "./images/game/food/maratang.jpg"
+          "name" : "이병헌",
+          "src" : "./images/game/boy/LeeByungHun.jpeg"
         },
 
         {
-          "name" : "피자",
-          "src" : "./images/game/food/pizza.jpg"
+          "name" : "정국",
+          "src" : "./images/game/boy/JungKook.jpg"
         },
 
         {
-          "name" : "돈까스",
-          "src" : "./images/game/food/porkCutlet.jpg"
+          "name" : "강동원",
+          "src" : "./images/game/boy/KangDongWon.jpg"
         },
 
         {
-          "name" : "된장찌개",
-          "src" : "./images/game/food/soybeanPasteStew.jpg"
+          "name" : "이동욱",
+          "src" : "./images/game/boy/LeeDongWook.jpg"
         },
 
         {
-          "name" : "수제비",
-          "src" : "./images/game/food/sujebi.jpg"
+          "name" : "박보검",
+          "src" : "./images/game/boy/ParkBoGum.jpg"
         },
 
         {
-          "name" : "초밥",
-          "src" : "./images/game/food/sushi.jpg"
+          "name" : "박서준",
+          "src" : "./images/game/boy/ParkSeoJun.jpg"
         },
 
         {
-          "name" : "다코야끼",
-          "src" : "./images/game/food/takoyaki.jpg"
+          "name" : "류준열",
+          "src" : "./images/game/boy/RyuJunYeol.jpg"
         },
 
         {
-          "name" : "떡만두국",
-          "src" : "./images/game/food/tteogmandugug.jpg"
+          "name" : "서강준",
+          "src" : "./images/game/boy/SeoKangJoon.jpeg"
         },
 
         {
-          "name" : "떡볶이",
-          "src" : "./images/game/food/tteokbokki.jpg"
+          "name" : "여진구",
+          "src" : "./images/game/boy/YeoJinGu.jpg"
         }
       ]
     },

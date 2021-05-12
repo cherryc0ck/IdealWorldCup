@@ -1,9 +1,9 @@
-@value makerBlueBottle, makerWhite from '../../common/colors.css';
+@value makerBlack, makerBlueBottle, makerWhite from '../../common/colors.css';
 
 .header {
   flex-basis: 30%;
   height: 100vh;
-  background-color: makerBlueBottle;
+  background-color: makerBlack;
 }
 
 .container {

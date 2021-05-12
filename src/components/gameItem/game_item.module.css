@@ -33,17 +33,16 @@
   padding: 10px 0;
   color: makerBlack;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: -0.2px;
   text-align: center;
 }
 
 .button {
-  border: 1px solid makerBlueBottle;
-  border-radius: 10px;
+  border: 1px solid makerBlack;
+  transition: all 0.4s;
 }
 .button:hover {
-  background-color: makerBlueBottle;
+  background-color: makerBlack;
   color: makerWhite;
-  transition: all 250ms;
 }
