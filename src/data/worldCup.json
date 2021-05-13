@@ -292,8 +292,8 @@
         },
 
         {
-          "name" : "신드바드",
-          "src" : "./images/game/cartoonMale/신드바드.jpg"
+          "name" : "센",
+          "src" : "./images/game/cartoonMale/센.jpg"
         },
 
         {
@@ -388,7 +388,7 @@
         },
 
         {
-          "name" : "월요일이 사라졌다.",
+          "name" : "월요일이 사라졌다",
           "src" : "./images/game/overseasMovies/월요일이사라졌다.jpg"
         },
 
@@ -430,6 +430,93 @@
         {
           "name" : "혹성탈출",
           "src" : "./images/game/overseasMovies/혹성탈출.jpg"
+        }
+      ]
+    },
+
+    {
+      "index" : 5,
+      "title" : "한국영화 월드컵",
+      "img" : "./images/game/koreaMovies/써니.jpg",
+      "items" : [
+        {
+          "name" : "7광구",
+          "src" : "./images/game/koreaMovies/7광구.jpg"
+        },
+
+        {
+          "name" : "곡성",
+          "src" : "./images/game/koreaMovies/곡성.jpg"
+        },
+
+        {
+          "name" : "광해",
+          "src" : "./images/game/koreaMovies/광해.jpg"
+        },
+
+        {
+          "name" : "괴물",
+          "src" : "./images/game/koreaMovies/괴물.jpg"
+        },
+
+        {
+          "name" : "기생충",
+          "src" : "./images/game/koreaMovies/기생충.jpg"
+        },
+
+        {
+          "name" : "내부자들",
+          "src" : "./images/game/koreaMovies/내부자들.jpg"
+        },
+
+        {
+          "name" : "마녀",
+          "src" : "./images/game/koreaMovies/마녀.jpg"
+        },
+
+        {
+          "name" : "명량",
+          "src" : "./images/game/koreaMovies/명량.jpg"
+        },
+
+        {
+          "name" : "변호인",
+          "src" : "./images/game/koreaMovies/변호인.jpg"
+        },
+
+        {
+          "name" : "부당거래",
+          "src" : "./images/game/koreaMovies/부당거래.jpg"
+        },
+
+        {
+          "name" : "설국열차",
+          "src" : "./images/game/koreaMovies/신세계.jpg"
+        },
+
+        {
+          "name" : "써니",
+          "src" : "./images/game/koreaMovies/써니.jpg"
+        },
+
+        {
+          "name" : "암살",
+          "src" : "./images/game/koreaMovies/암살.jpg"
+        },
+
+        {
+          "name" : "추격자",
+          "src" : "./images/game/koreaMovies/추격자.jpg"
+        },
+
+        {
+          "name" : "타짜",
+          "src" : "./images/game/koreaMovies/타짜.jpg"
+        },
+
+        {
+          "name" : "신세계",
+          "src" : "./images/game/koreaMovies/혹성탈출.jpg"
         }
       ]
     }
