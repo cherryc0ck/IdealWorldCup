@@ -516,7 +516,93 @@
 
         {
           "name" : "신세계",
-          "src" : "./images/game/koreaMovies/혹성탈출.jpg"
+          "src" : "./images/game/koreaMovies/신세계.jpg"
+        }
+      ]
+    },
+    {
+      "index" : 6,
+      "title" : "외국남성배우 월드컵",
+      "img" : "./images/game/overseasMan/로버트패틴슨.jpg",
+      "items" : [
+        {
+          "name" : "다니엘 래드클리프",
+          "src" : "./images/game/overseasMan/다니엘래드클리프.jpg"
+        },
+
+        {
+          "name" : "레오나르도 디카프리오",
+          "src" : "./images/game/overseasMan/레오나르도디카프리오.jpg"
+        },
+
+        {
+          "name" : "로버트 다우니 주니어",
+          "src" : "./images/game/overseasMan/로버트다우니주니어.jpg"
+        },
+
+        {
+          "name" : "로버트 패틴슨",
+          "src" : "./images/game/overseasMan/로버트패틴슨.jpg"
+        },
+
+        {
+          "name" : "베네딕트 컴버배치",
+          "src" : "./images/game/overseasMan/베네딕트컴버배치.jpg"
+        },
+
+        {
+          "name" : "브래드 피트",
+          "src" : "./images/game/overseasMan/브래드피트.jpg"
+        },
+
+        {
+          "name" : "제임스 맥어보이",
+          "src" : "./images/game/overseasMan/제임스맥어보이.jpg"
+        },
+
+        {
+          "name" : "짐 캐리",
+          "src" : "./images/game/overseasMan/짐캐리.jpg"
+        },
+
+        {
+          "name" : "크리스 에반스",
+          "src" : "./images/game/overseasMan/크리스에반스.jpg"
+        },
+
+        {
+          "name" : "크리스찬 베일",
+          "src" : "./images/game/overseasMan/크리스찬베일.jpg"
+        },
+
+        {
+          "name" : "크리스 햄스워스",
+          "src" : "./images/game/overseasMan/크리스햄스워스.jpg"
+        },
+
+        {
+          "name" : "태런에저튼",
+          "src" : "./images/game/overseasMan/태런에저튼.jpg"
+        },
+
+        {
+          "name" : "톰 크루즈",
+          "src" : "./images/game/overseasMan/톰크루즈.jpg"
+        },
+
+        {
+          "name" : "톰 하디",
+          "src" : "./images/game/overseasMan/톰하디.jpg"
+        },
+
+        {
+          "name" : "톰 홀랜드",
+          "src" : "./images/game/overseasMan/톰홀랜드.jpg"
+        },
+
+        {
+          "name" : "톰 히들스턴",
+          "src" : "./images/game/overseasMan/톰히들스턴.jpg"
         }
       ]
     }
