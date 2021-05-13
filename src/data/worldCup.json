@@ -605,6 +605,93 @@
           "src" : "./images/game/overseasMan/톰히들스턴.jpg"
         }
       ]
+    },
+
+    {
+      "index" : 7,
+      "title" : "외국여성배우 월드컵",
+      "img" : "./images/game/overseasWoman/마고로비.jpg",
+      "items" : [
+        {
+          "name" : "나탈리 도메르",
+          "src" : "./images/game/overseasWoman/나탈리도메르.jpg"
+        },
+
+        {
+          "name" : "나탈리 포트만",
+          "src" : "./images/game/overseasWoman/나탈리포트만.jpg"
+        },
+
+        {
+          "name" : "마고 로비",
+          "src" : "./images/game/overseasWoman/마고로비.jpg"
+        },
+
+        {
+          "name" : "메간 폭스",
+          "src" : "./images/game/overseasWoman/메간폭스.jpg"
+        },
+
+        {
+          "name" : "샤를리즈 테론",
+          "src" : "./images/game/overseasWoman/샤를리즈테론.png"
+        },
+
+        {
+          "name" : "스칼렛 요한슨",
+          "src" : "./images/game/overseasWoman/스칼렛요한슨.jpg"
+        },
+
+        {
+          "name" : "아만다 사이프리드",
+          "src" : "./images/game/overseasWoman/아만다사이프리드.jpg"
+        },
+
+        {
+          "name" : "안젤리나 졸리",
+          "src" : "./images/game/overseasWoman/안젤리나졸리.jpg"
+        },
+
+        {
+          "name" : "앤 해서웨이",
+          "src" : "./images/game/overseasWoman/앤해서웨이.jpg"
+        },
+
+        {
+          "name" : "에밀리 반캠프",
+          "src" : "./images/game/overseasWoman/에밀리반캠프.jpg"
+        },
+
+        {
+          "name" : "에밀리아 클라크",
+          "src" : "./images/game/overseasWoman/에밀리아클라크.jpg"
+        },
+
+        {
+          "name" : "에바 그린",
+          "src" : "./images/game/overseasWoman/에바그린.jpg"
+        },
+
+        {
+          "name" : "엠마 스톤",
+          "src" : "./images/game/overseasWoman/엠마스톤.jpg"
+        },
+
+        {
+          "name" : "엠마 왓슨",
+          "src" : "./images/game/overseasWoman/엠마왓슨.jpg"
+        },
+
+        {
+          "name" : "엠버 허드",
+          "src" : "./images/game/overseasWoman/엠버허드.jpg"
+        },
+
+        {
+          "name" : "크리스틴 스튜어트",
+          "src" : "./images/game/overseasWoman/크리스틴스튜어트.jpg"
+        }
+      ]
     }
   ]
 }
