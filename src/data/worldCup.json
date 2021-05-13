@@ -350,7 +350,7 @@
     {
       "index" : 4,
       "title" : "해외영화 월드컵",
-      "img" : "./images/game/overseasMovies/테넷.jpg",
+      "img" : "./images/game/overseasMovies/인셉션.jpg",
       "items" : [
         {
           "name" : "나비효과",
@@ -437,7 +437,7 @@
     {
       "index" : 5,
       "title" : "한국영화 월드컵",
-      "img" : "./images/game/koreaMovies/써니.jpg",
+      "img" : "./images/game/koreaMovies/기생충.jpg",
       "items" : [
         {
           "name" : "7광구",
@@ -690,6 +690,93 @@
         {
           "name" : "크리스틴 스튜어트",
           "src" : "./images/game/overseasWoman/크리스틴스튜어트.jpg"
+        }
+      ]
+    },
+
+    {
+      "index" : 8,
+      "title" : "PC게임 월드컵",
+      "img" : "./images/game/pcGame/메이플스토리.jpg",
+      "items" : [
+        {
+          "name" : "겟앰프드",
+          "src" : "./images/game/pcGame/겟앰프드.jpg"
+        },
+
+        {
+          "name" : "던전앤파이터",
+          "src" : "./images/game/pcGame/던전앤파이터.jpg"
+        },
+
+        {
+          "name" : "로스트아크",
+          "src" : "./images/game/pcGame/로스트아크.jpg"
+        },
+
+        {
+          "name" : "리그오브레전드",
+          "src" : "./images/game/pcGame/롤.jpg"
+        },
+
+        {
+          "name" : "리니지",
+          "src" : "./images/game/pcGame/리니지.jpg"
+        },
+
+        {
+          "name" : "메이플스토리",
+          "src" : "./images/game/pcGame/메이플스토리.jpg"
+        },
+
+        {
+          "name" : "배틀그라운드",
+          "src" : "./images/game/pcGame/배틀그라운드.jpg"
+        },
+
+        {
+          "name" : "사이퍼즈",
+          "src" : "./images/game/pcGame/사이퍼즈.jpg"
+        },
+
+        {
+          "name" : "서든어택",
+          "src" : "./images/game/pcGame/서든어택.jpg"
+        },
+
+        {
+          "name" : "스타크래프트",
+          "src" : "./images/game/pcGame/스타크래프트.jpg"
+        },
+
+        {
+          "name" : "아이온",
+          "src" : "./images/game/pcGame/아이온.jpg"
+        },
+
+        {
+          "name" : "오버워치",
+          "src" : "./images/game/pcGame/오버워치.jpg"
+        },
+
+        {
+          "name" : "워크래프트",
+          "src" : "./images/game/pcGame/워크래프트.jpg"
+        },
+
+        {
+          "name" : "카트라이더",
+          "src" : "./images/game/pcGame/카트라이더.jpg"
+        },
+
+        {
+          "name" : "피파 온라인",
+          "src" : "./images/game/pcGame/피파온라인.jpg"
+        },
+
+        {
+          "name" : "하스스톤",
+          "src" : "./images/game/pcGame/하스스톤.jpg"
         }
       ]
     }

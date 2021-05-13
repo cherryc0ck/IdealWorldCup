@@ -7,6 +7,10 @@ class AuthService {
     return firebaseApp.auth().signInWithPopup(authProvider);
   }
 
+  AnonymouslyLogin(){
+    new firebase.auth().signInAnonymously();
+  }
+
   logout(){
     firebase.auth().signOut();
   };

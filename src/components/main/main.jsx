@@ -1,5 +1,4 @@
 import React from 'react';
-import { useHistory } from 'react-router';
 import GameList from '../gameList/game_list';
 import Header from '../header/header';
 import styles from './main.module.css';

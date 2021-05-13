@@ -1,12 +1,10 @@
-import { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import styles from './app.module.css';
 import Header from './components/header/header';
 import Main from './components/main/main';
 
 function App({ authService }) {
-
-  const [game, setGame] = useState();
 
   return (
     <div className={styles.app}>

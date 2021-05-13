@@ -7,13 +7,17 @@ const Login = ({ authService, onLogout}) => {
   const history = useHistory();
   
   const onLogin = event => {
+    //익명 로그인
+    if(event.target.innerHTML === "Anonymous"){
+      authService //
+      .AnonymouslyLogin();
+      return;
+    }
+    //구글, 깃 로그인
     authService //
     .login(event.currentTarget.textContent)
     .then(data => goToMain(data.user.uid) );
   }
-  // const onLogout = () =>{
-  //   authService.logout();
-  // };
 
   useEffect(()=>{
     authService.onAuthChange(user => {
@@ -35,15 +39,16 @@ const Login = ({ authService, onLogout}) => {
       {
         onLogout && 
         <>
-          <button className={styles.logout} onClick={onLogout}>Logout</button>
-          <button className={styles.mypage} >MyPage</button>
+          <button className={styles.button} onClick={onLogout}>Logout</button>
+          <button className={styles.button} >MyPage</button>
         </>
       }
       {
         onLogout ||
         <>
-          <button className={styles.google} onClick={onLogin}>Google</button>
-          <button className={styles.github} onClick={onLogin}>Github</button>
+          <button className={styles.button} onClick={onLogin}>Google</button>
+          <button className={styles.button} onClick={onLogin}>Github</button>
+          <button className={styles.button} onClick={onLogin}>Anonymous</button>
         </>
       }
 
