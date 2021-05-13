@@ -5,6 +5,10 @@ import Progressbar from '../progressbar/progressbar';
 
 const Modal = ({game, open, close, title}) => {
 
+  const onProgress = (dd) => {
+    console.log(dd);
+  };
+
   return (
     <div className={open ? `${styles.openModal}`:`${styles.modal}`}>
       {open ?(
@@ -13,9 +17,9 @@ const Modal = ({game, open, close, title}) => {
             {title}
             <button className={styles.headerBtn} onClick={close}>&times;</button>
           </header>
-          <ModalGame game={game} />
+          <ModalGame game={game} onProgress={onProgress} />
           <footer className={styles.footer}>
-            <Progressbar />
+            <Progressbar onProgress={onProgress} />
           </footer>
         </section>
       ): null}
