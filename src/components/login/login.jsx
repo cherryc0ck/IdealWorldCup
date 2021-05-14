@@ -16,7 +16,8 @@ const Login = ({ authService, onLogout}) => {
     //구글, 깃 로그인
     authService //
     .login(event.currentTarget.textContent)
-    .then(data => goToMain(data.user.uid) );
+    // .then(data => goToMain(data.user.uid) );
+    .then(data => console.log(data));
   }
 
   useEffect(()=>{
@@ -24,13 +25,23 @@ const Login = ({ authService, onLogout}) => {
       if(!user){
         history.push('/');
       }
+      if(history.location.state.mypage === "mypage"){
+        return;
+      }
       user && goToMain(user.uid);
     });
-  });
+  },[]);
   const goToMain = userId =>{
     history.push({
       pathname : '/main',
       state : {id : userId},
+    });
+  };
+
+  const goToMyPage = () => {
+    history.push({
+      pathname : '/myPage',
+      state : {mypage : "mypage"}
     });
   };
 
@@ -40,7 +51,7 @@ const Login = ({ authService, onLogout}) => {
         onLogout && 
         <>
           <button className={styles.button} onClick={onLogout}>Logout</button>
-          <button className={styles.button} >MyPage</button>
+          <button className={styles.button} onClick={goToMyPage}>MyPage</button>
         </>
       }
       {
