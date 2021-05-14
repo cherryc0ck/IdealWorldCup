@@ -10,7 +10,7 @@ const Main = ({authService}) => {
   };
 
   return (
-    <section className={styles.container}>
+    <section className={styles.section}>
       <Header authService={authService} onLogout={onLogout} />
       <main className={styles.main}>
         <GameList />

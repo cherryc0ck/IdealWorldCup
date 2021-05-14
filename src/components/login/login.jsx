@@ -1,37 +1,35 @@
-import { useEffect } from 'react';
+import { useEffect} from 'react';
 import { useHistory } from 'react-router';
 import styles from './login.module.css';
 
 const Login = ({ authService, onLogout}) => {
-
   const history = useHistory();
-  
+
   const onLogin = event => {
+    const target = event.target.innerHTML;
     //익명 로그인
-    if(event.target.innerHTML === "Anonymous"){
+    if(target === "Anonymous"){
       authService //
-      .AnonymouslyLogin();
-      return;
+      .AnonymouslyLogin()
+      .then(data=> goToMain(data.user.uid));
     }
     //구글, 깃 로그인
-    authService //
-    .login(event.currentTarget.textContent)
-    // .then(data => goToMain(data.user.uid) );
-    .then(data => console.log(data));
+    if(target === "Google" || target === "Github"){
+      authService //
+      .login(event.currentTarget.textContent)
+      .then(data => goToMain(data.user.uid) );
+    }
   }
-
   useEffect(()=>{
     authService.onAuthChange(user => {
       if(!user){
         history.push('/');
       }
-      if(history.location.state.mypage === "mypage"){
-        return;
-      }
-      user && goToMain(user.uid);
     });
   },[]);
+
   const goToMain = userId =>{
+    console.log("goToMaIN");
     history.push({
       pathname : '/main',
       state : {id : userId},
@@ -39,9 +37,9 @@ const Login = ({ authService, onLogout}) => {
   };
 
   const goToMyPage = () => {
+    console.log("goToMyPage");
     history.push({
-      pathname : '/myPage',
-      state : {mypage : "mypage"}
+      pathname : '/myPage'
     });
   };
 

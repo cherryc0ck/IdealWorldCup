@@ -1,0 +1,39 @@
+@value makerLightGrey, makerWhite, makerBlack from '../../common/colors.css';
+
+.main {
+  flex-basis: 70%;
+  background-color: makerLightGrey;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin: 40px 80px;
+  background-color: makerWhite;
+}
+
+.imgContainer {
+  width: 20%;
+  height: auto;
+  padding: 20px;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+}
+
+.hello {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.details {
+  margin: 40px;
+  background-color: makerWhite;
+}

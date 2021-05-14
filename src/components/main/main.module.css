@@ -1,11 +1,11 @@
 @value makerLightGrey from '../../common/colors.css';
 
 .main {
-  flex-basis: 70%;
+  width: 70%;
   background-color: makerLightGrey;
 }
 
-.container {
+.section {
   display: flex;
   width: 100%;
 }

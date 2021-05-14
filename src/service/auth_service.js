@@ -8,7 +8,7 @@ class AuthService {
   }
 
   AnonymouslyLogin(){
-    new firebase.auth().signInAnonymously();
+    return new firebase.auth().signInAnonymously();
   }
 
   logout(){
