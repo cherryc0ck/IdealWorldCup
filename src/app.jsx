@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import styles from './app.module.css';
 import Header from './components/header/header';
@@ -11,13 +11,13 @@ function App({ authService }) {
     <div className={styles.app}>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/" >
             <Header authService={authService} />
           </Route>
           <Route path="/main">
             <Main authService={authService} />
           </Route>
-          <Route path="/myPage">
+          <Route path="/mypage">
             <MyPage authService={authService} />
           </Route>
         </Switch>

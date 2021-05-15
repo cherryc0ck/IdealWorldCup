@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React  from 'react';
 import styles from './modal.module.css';
 import ModalGame from '../modalGame/modal_game';
 import Progressbar from '../progressbar/progressbar';

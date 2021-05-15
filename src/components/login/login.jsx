@@ -1,9 +1,11 @@
-import { useEffect} from 'react';
+import { useEffect } from 'react';
 import { useHistory } from 'react-router';
 import styles from './login.module.css';
 
-const Login = ({ authService, onLogout}) => {
+const Login = ({ authService, onLogout, loginKind}) => {
   const history = useHistory();
+
+  
 
   const onLogin = event => {
     const target = event.target.innerHTML;
@@ -11,13 +13,13 @@ const Login = ({ authService, onLogout}) => {
     if(target === "Anonymous"){
       authService //
       .AnonymouslyLogin()
-      .then(data=> goToMain(data.user.uid));
+      .then(data=> goToMain(data.user));
     }
     //구글, 깃 로그인
     if(target === "Google" || target === "Github"){
       authService //
       .login(event.currentTarget.textContent)
-      .then(data => goToMain(data.user.uid) );
+      .then(data => goToMain(data.user) );
     }
   }
   useEffect(()=>{
@@ -26,21 +28,29 @@ const Login = ({ authService, onLogout}) => {
         history.push('/');
       }
     });
-  },[]);
+  });
 
-  const goToMain = userId =>{
-    console.log("goToMaIN");
+
+  const goToMain = user =>{
+    console.log(user);
     history.push({
-      pathname : '/main',
-      state : {id : userId},
+      pathname : '/main'
     });
   };
 
-  const goToMyPage = () => {
-    console.log("goToMyPage");
-    history.push({
-      pathname : '/myPage'
-    });
+
+
+  const goToPage = (event) => {
+    const target = event.target.innerHTML;
+    if(target === "Main"){
+      history.push({
+        pathname : '/main'
+      });
+    }else if(target === "MyPage"){
+      history.push({
+        pathname : '/mypage'
+      });
+    }
   };
 
   return(
@@ -49,7 +59,9 @@ const Login = ({ authService, onLogout}) => {
         onLogout && 
         <>
           <button className={styles.button} onClick={onLogout}>Logout</button>
-          <button className={styles.button} onClick={goToMyPage}>MyPage</button>
+          <button className={styles.button} onClick={goToPage}>
+            {loginKind ? "Main" : "MyPage"}  
+          </button>
         </>
       }
       {

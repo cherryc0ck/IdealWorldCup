@@ -11,7 +11,7 @@ const Main = ({authService}) => {
 
   return (
     <section className={styles.section}>
-      <Header authService={authService} onLogout={onLogout} />
+      <Header authService={authService} onLogout={onLogout}/>
       <main className={styles.main}>
         <GameList />
       </main>

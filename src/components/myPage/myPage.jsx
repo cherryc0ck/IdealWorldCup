@@ -1,9 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Card from '../card/card';
+import CardEditForm from '../card_edit_form/card_edit_form';
 import Header from '../header/header';
 import styles from './myPage.module.css';
 
-const MyPage = ({authService}) => {
+const MyPage = ({ authService }) => {
+  const [loading, setLoading] = useState();
+  const [userName, setUserName] = useState();
+  const [userEmail, setUserEmail] = useState();
+  const [loginKind, setLoginKind] = useState();
+
+  useEffect(()=>{
+    authService.onAuthChange(user => {
+      //유저가 존재할경우 이메일과 이름 값받아옴
+      if(user){
+        setUserName(user.displayName);
+        setUserEmail(user.email);
+        //유저의 이메일이 없을경우(비회원로그인)
+        if(!user.email){
+          setLoginKind("비회원 로그인");
+        }else if(user.email){
+          setLoginKind("소셜 로그인");
+        }
+      }
+    });
+  },[authService]);
+
+  useEffect(() => {
+    return () => setLoading(false);
+  }, [loading]);
+
 
   const onLogout = () =>{
     authService.logout();
@@ -11,13 +37,18 @@ const MyPage = ({authService}) => {
 
   return (
     <section className={styles.section}>
-      <Header authService={authService} onLogout={onLogout} />
+      <Header authService={authService} onLogout={onLogout} loginKind={loginKind} />
       <main className={styles.main}>
         <div className={styles.container}>
-          <Card />
-          <div className={styles.details}>
-            디테일입니다.
-          </div>
+          <Card 
+            userName={userName}
+            loginKind={loginKind}
+           />
+          <CardEditForm 
+            userName={userName} 
+            userEmail={userEmail} 
+            loginKind={loginKind}
+          />
         </div>
       </main>
     </section>

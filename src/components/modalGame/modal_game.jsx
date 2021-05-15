@@ -9,7 +9,7 @@ const ModalGame = ({game, onProgress}) => {
   useEffect(()=>{
     items.sort(() => Math.random() - 0.5);
     setDisplays([items[0], items[1]]);
-  },[]);
+  }, [items]);
 
   const clickHandler = (picker) => () => {
     if(items.length <= 2){
@@ -40,7 +40,7 @@ const ModalGame = ({game, onProgress}) => {
               onClick={clickHandler(display)}
             >
               <div className={styles.imgContainer}>
-                <img className={styles.img} src={display.src} />
+                <img className={styles.img} src={display.src} alt="worldCup img"/>
               </div>
               <p className={styles.name} src={display.name}>{display.name}</p>
             </div>

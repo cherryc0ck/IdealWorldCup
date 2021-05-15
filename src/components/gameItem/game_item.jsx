@@ -17,9 +17,9 @@ const GameItem = ({game}) => {
   return(
     <>
       <li className={styles.game}>
-        <a className={styles.container}>
+        <div className={styles.container}>
           <div className={styles.imgContainer}>
-            <img className={styles.img} src={game.img} />
+            <img className={styles.img} src={game.img} alt="worldCup thumnail" />
           </div>
           <p className={styles.title}>{game.title}</p>
           <button 
@@ -28,7 +28,7 @@ const GameItem = ({game}) => {
           >
             START
           </button>
-        </a>
+        </div>
         <Modal
             key={game.index}
             open={modalOpen}
