@@ -1,19 +1,17 @@
-@value makerWhite from '../../common/colors.css';
+@value makerWhite,makerBlack from '../../common/colors.css';
 
 .card {
   display: flex;
   align-items: center;
   margin: 10px 0;
   background-color: makerWhite;
-  border: 1px solid black;
+  border: 1px solid makerBlack;
 }
 
 .avatar {
-  border: 1px solid black;
 }
 
 .info {
-  border: 1px solid blue;
 }
 
 .hello {
