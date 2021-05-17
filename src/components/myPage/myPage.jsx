@@ -10,6 +10,19 @@ const MyPage = ({ authService }) => {
   const [userEmail, setUserEmail] = useState();
   const [loginKind, setLoginKind] = useState();
 
+  const [card, setCard] = useState(
+    {
+      name : 'Untaek',
+      theme: 'dark',
+      nickName: 'Soft',
+      email: 'ddd@naver.com',
+      message : 'gogogo',
+      fileName: 'eee',
+      fileURL: null
+    }
+  );
+
+
   useEffect(()=>{
     authService.onAuthChange(user => {
       //유저가 존재할경우 이메일과 이름 값받아옴
@@ -43,11 +56,13 @@ const MyPage = ({ authService }) => {
           <Card 
             userName={userName}
             loginKind={loginKind}
+            card={card}
            />
           <CardEditForm 
             userName={userName} 
             userEmail={userEmail} 
             loginKind={loginKind}
+            card={card}
           />
         </div>
       </main>

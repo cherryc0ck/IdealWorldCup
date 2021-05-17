@@ -1,17 +1,29 @@
-@value makerWhite,makerBlack from '../../common/colors.css';
+@value makerLight, makerShadow, makerWhite, makerBlack from '../../common/colors.css';
 
 .card {
   display: flex;
   align-items: center;
   margin: 10px 0;
   background-color: makerWhite;
-  border: 1px solid makerBlack;
+  border-radius: 1em;
+  box-shadow: makerShadow;
+}
+
+.card.dark {
+  background-color: makerBlack;
+}
+.card.light {
+  background-color: makerLight;
 }
 
 .avatar {
+  margin-left: 10px;
+  border: 1px solid black;
 }
 
 .info {
+  flex-basis: 100%;
+  padding-left: 20px;
 }
 
 .hello {
@@ -19,6 +31,11 @@
   font-weight: bold;
 }
 .auth {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
+}
+
+.textarea {
+  width: 50%;
+  margin-top: 20px;
 }

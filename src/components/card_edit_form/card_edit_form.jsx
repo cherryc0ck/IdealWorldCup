@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './card_edit_form.module.css';
 
-const CardEditForm = ({userName, userEmail}) => {
+const CardEditForm = ({userName, userEmail, card}) => {
 
   const onChange = (event) => {
     return;
