@@ -5,8 +5,8 @@ import Progressbar from '../progressbar/progressbar';
 
 const Modal = ({game, open, close, title}) => {
 
-  const onProgress = (dd) => {
-    console.log(dd);
+  const onProgress = () => {
+    
   };
 
   return (

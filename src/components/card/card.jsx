@@ -18,18 +18,10 @@ const Card = ({userName, loginKind, card}) => {
       />
       <div className={styles.info}>
         <p className={styles.hello}>
-          {userName ? userName : "비회원"}님 안녕하세요.
+          {userName ? userName : "비회원"}
         </p>
         <p className={styles.auth}>({loginKind})</p>
-        <textarea
-          className={styles.textarea}
-          name="textarea" 
-          value="dd" 
-          onChange={onChange}
-          disabled
-        >
-          ddddd
-        </textarea>
+        <p className={styles.message}>{message}</p>
       </div>
     </div>
   )

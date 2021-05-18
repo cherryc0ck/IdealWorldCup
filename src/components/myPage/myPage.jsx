@@ -13,7 +13,7 @@ const MyPage = ({ authService }) => {
   const [card, setCard] = useState(
     {
       name : 'Untaek',
-      theme: 'dark',
+      theme: 'colorful',
       nickName: 'Soft',
       email: 'ddd@naver.com',
       message : 'gogogo',
