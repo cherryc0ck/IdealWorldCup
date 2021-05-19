@@ -31,9 +31,12 @@ const CardEditForm = ({userName, userEmail, card}) => {
         <option value="dark">dark</option>
         <option value="colorful">colorful</option>
       </select>
-      <textarea className={styles.textarea} name="message" value={message} onChange={onChange}>
-
-      </textarea>
+      <div>
+        <textarea className={styles.textarea} name="message" value={message} onChange={onChange}></textarea>
+        <button className={styles.refreshBtn}>
+          <i className="fas fa-retweet"></i>
+        </button>
+      </div>
     </form>
   )
 };
