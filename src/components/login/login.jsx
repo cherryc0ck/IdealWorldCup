@@ -1,11 +1,12 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import styles from './login.module.css';
 
-const Login = ({ authService, onLogout, loginKind}) => {
+const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
   const history = useHistory();
 
-  
+  const historyState = useHistory().state;
+  const [userId, setUserId] = useState(historyState && historyState.id);
 
   const onLogin = event => {
     const target = event.target.innerHTML;
@@ -24,7 +25,9 @@ const Login = ({ authService, onLogout, loginKind}) => {
   }
   useEffect(()=>{
     authService.onAuthChange(user => {
-      if(!user){
+      if(user){
+        setUserId(user.uid);
+      }else if(!user) {
         history.push('/');
       }
     });
@@ -33,24 +36,30 @@ const Login = ({ authService, onLogout, loginKind}) => {
 
   const goToMain = user =>{
     console.log(user);
+    console.log("goToMain에 의해 메인일때")
     history.push({
-      pathname : '/main'
+      pathname : '/main',
+      id : {id : user.uid}
     });
   };
 
-
-
   const goToPage = (event) => {
     const target = event.target.innerHTML;
-    if(target === "Main"){
-      history.push({
-        pathname : '/main'
-      });
-    }else if(target === "MyPage"){
-      history.push({
-        pathname : '/mypage'
-      });
-    }
+    authService.onAuthChange(user => {
+      if(target === "Main"){
+        console.log("메인일떄");
+        history.push({
+          pathname : '/main',
+          id : {id : user.uid}
+        });
+      }else if(target === "MyPage"){
+        console.log("마이페이지일때");
+        history.push({
+          pathname : '/mypage',
+          id : {id : user.uid}
+        })
+      }
+    });
   };
 
   return(

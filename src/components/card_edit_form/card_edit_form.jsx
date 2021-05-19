@@ -1,18 +1,15 @@
 import React, { useRef } from 'react';
+import CardRepository from '../../service/cardRepository';
 import styles from './card_edit_form.module.css';
 
 const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
   const formRef = useRef();
   const themeRef = useRef();
   const messageRef = useRef();
- 
-  const { message, theme} = info;
+
+  const { message, theme } = info;
 
   const onFileChange = file => {
-    console.log("onFileChange");
-    console.log(file);
-    console.log(file.name);
-    console.log(file.url);
     updateCard({
       ...info,
       fileName:file.name,
@@ -28,7 +25,7 @@ const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
     updateCard({
       ...info,
       [event.currentTarget.name] : event.currentTarget.value
-    })
+    });
   };
 
   return(

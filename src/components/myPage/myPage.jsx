@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
 import Card from '../card/card';
 import CardEditForm from '../card_edit_form/card_edit_form';
 import Header from '../header/header';
 import styles from './myPage.module.css';
 
-const MyPage = ({ FileInput, authService }) => {
+const MyPage = ({ FileInput, authService, cardRepository }) => {
   const [loading, setLoading] = useState();
   const [userName, setUserName] = useState();
   const [userEmail, setUserEmail] = useState();
   const [loginKind, setLoginKind] = useState();
+  const [userId, setUserId] = useState();
+
 
   const [card, setCard] = useState(
     {
+      id : '1',
       theme: 'white',
       message : 'please enter your message',
       fileName: 'eee',
@@ -25,6 +29,7 @@ const MyPage = ({ FileInput, authService }) => {
       if(user){
         setUserName(user.displayName);
         setUserEmail(user.email);
+        setUserId(user.uid);
         //유저의 이메일이 없을경우(비회원로그인)
         if(!user.email){
           setLoginKind("비회원 로그인");
@@ -45,6 +50,8 @@ const MyPage = ({ FileInput, authService }) => {
 
   const updateCard = (updateCard) =>{
     setCard(updateCard);
+    console.log(updateCard);
+    cardRepository.saveCard(userId, updateCard);
   };
 
   return (

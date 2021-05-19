@@ -3,7 +3,7 @@ import GameList from '../gameList/game_list';
 import Header from '../header/header';
 import styles from './main.module.css';
 
-const Main = ({authService}) => {
+const Main = ({authService, cardRepository}) => {
 
   const onLogout = () =>{
     authService.logout();
@@ -11,7 +11,7 @@ const Main = ({authService}) => {
 
   return (
     <section className={styles.section}>
-      <Header authService={authService} onLogout={onLogout}/>
+      <Header authService={authService} onLogout={onLogout} cardRepository={cardRepository} />
       <main className={styles.main}>
         <GameList />
       </main>

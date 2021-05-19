@@ -7,18 +7,20 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/js/all.js';
 import ImageUploader from './service/image_uploader';
 import ImageFileInput from './components/image_file_input/image_file_input';
+import CardRepository from './service/cardRepository';
 
 const authService = new AuthService();
 const imageUploader = new ImageUploader();
 const FileInput = props => (
   <ImageFileInput {...props} imageUploader={imageUploader} />
 );
+const cardRepository = new CardRepository();
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App authService={authService} FileInput={FileInput} />
+      <App authService={authService} FileInput={FileInput} cardRepository={cardRepository} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
