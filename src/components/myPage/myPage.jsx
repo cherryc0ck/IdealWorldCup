@@ -12,13 +12,12 @@ const MyPage = ({ authService }) => {
 
   const [card, setCard] = useState(
     {
-      theme: 'colorful',
-      message : 'gogogo',
+      theme: 'white',
+      message : 'please enter your message',
       fileName: 'eee',
       fileURL: null
     }
   );
-
 
   useEffect(()=>{
     authService.onAuthChange(user => {
@@ -40,14 +39,12 @@ const MyPage = ({ authService }) => {
     return () => setLoading(false);
   }, [loading]);
 
-  const updateCard = (updateCard) => {
-    console.log("실행");
-    console.log(updateCard);
-    setCard(updateCard);
-  }
-
   const onLogout = () =>{
     authService.logout();
+  };
+
+  const updateCard = (updateCard) =>{
+    setCard(updateCard);
   };
 
   return (
@@ -64,7 +61,8 @@ const MyPage = ({ authService }) => {
             userName={userName} 
             userEmail={userEmail} 
             loginKind={loginKind}
-            onUpdate={updateCard}
+            updateCard={updateCard}
+            info={card}
           />
         </div>
       </main>

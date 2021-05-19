@@ -29,10 +29,12 @@ const Card = ({userName, loginKind, card}) => {
 
 function getStyles(theme){
   switch(theme){
+    case 'white' :
+      return styles.white;
     case 'dark' :
       return styles.dark;
-    case 'light' :
-      return styles.light;
+    case 'pink' :
+      return styles.pink;
     case 'colorful' :
       return styles.colorful;
     default:
