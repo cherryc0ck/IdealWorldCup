@@ -8,6 +8,18 @@ const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
  
   const { message, theme} = info;
 
+  const onFileChange = file => {
+    console.log("onFileChange");
+    console.log(file);
+    console.log(file.name);
+    console.log(file.url);
+    updateCard({
+      ...info,
+      fileName:file.name,
+      fileURL:file.url
+    });
+  };
+
   const onChange = (event) => {
     if(event.currentTarget === null){
       return ;
@@ -43,7 +55,7 @@ const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
       </select>
       <div className={styles.inputFooter}>
         <textarea ref={messageRef} className={styles.textarea} name="message" value={message} placeholer="message" onChange={onChange}></textarea>
-        <FileInput />
+        <FileInput onFileChange={onFileChange} />
       </div>
     </form>
   )
