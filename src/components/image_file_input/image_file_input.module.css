@@ -1,0 +1,8 @@
+@value makerWhite, makerBlack from '../../common/colors.css';
+
+.button {
+  width: 15%;
+  background-color: makerWhite;
+  color: makerBlack;
+  font-size: 28px;
+}

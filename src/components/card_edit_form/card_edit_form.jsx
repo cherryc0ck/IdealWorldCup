@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styles from './card_edit_form.module.css';
 
-const CardEditForm = ({userName, userEmail ,updateCard, info}) => {
+const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
   const formRef = useRef();
   const themeRef = useRef();
   const messageRef = useRef();
@@ -43,6 +43,7 @@ const CardEditForm = ({userName, userEmail ,updateCard, info}) => {
       </select>
       <div className={styles.inputFooter}>
         <textarea ref={messageRef} className={styles.textarea} name="message" value={message} placeholer="message" onChange={onChange}></textarea>
+        <FileInput />
       </div>
     </form>
   )

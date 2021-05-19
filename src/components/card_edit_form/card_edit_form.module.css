@@ -11,8 +11,7 @@
 }
 
 .input,
-.select,
-.textarea {
+.select {
   width: 100%;
 }
 
@@ -34,14 +33,12 @@
   outline: none;
 }
 
+.textarea {
+  width: 90%;
+  height: 100px;
+}
+
 .inputFooter {
   display: flex;
   width: 100%;
-}
-
-.refreshBtn {
-  width: 10%;
-  background-color: makerWhite;
-  color: #151515;
-  font-size: 28px;
 }

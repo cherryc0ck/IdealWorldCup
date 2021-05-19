@@ -5,7 +5,7 @@ import Header from './components/header/header';
 import Main from './components/main/main';
 import MyPage from './components/myPage/myPage';
 
-function App({ authService }) {
+function App({ FileInput, authService }) {
 
   return (
     <div className={styles.app}>
@@ -18,7 +18,7 @@ function App({ authService }) {
             <Main authService={authService} />
           </Route>
           <Route path="/mypage">
-            <MyPage authService={authService} />
+            <MyPage FileInput={FileInput} authService={authService} />
           </Route>
         </Switch>
       </BrowserRouter>

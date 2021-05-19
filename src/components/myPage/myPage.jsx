@@ -4,7 +4,7 @@ import CardEditForm from '../card_edit_form/card_edit_form';
 import Header from '../header/header';
 import styles from './myPage.module.css';
 
-const MyPage = ({ authService }) => {
+const MyPage = ({ FileInput, authService }) => {
   const [loading, setLoading] = useState();
   const [userName, setUserName] = useState();
   const [userEmail, setUserEmail] = useState();
@@ -57,7 +57,8 @@ const MyPage = ({ authService }) => {
             loginKind={loginKind}
             card={card}
            />
-          <CardEditForm 
+          <CardEditForm
+            FileInput={FileInput} 
             userName={userName} 
             userEmail={userEmail} 
             loginKind={loginKind}
