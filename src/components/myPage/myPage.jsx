@@ -12,10 +12,7 @@ const MyPage = ({ authService }) => {
 
   const [card, setCard] = useState(
     {
-      name : 'Untaek',
       theme: 'colorful',
-      nickName: 'Soft',
-      email: 'ddd@naver.com',
       message : 'gogogo',
       fileName: 'eee',
       fileURL: null
@@ -43,6 +40,11 @@ const MyPage = ({ authService }) => {
     return () => setLoading(false);
   }, [loading]);
 
+  const updateCard = (updateCard) => {
+    console.log("실행");
+    console.log(updateCard);
+    setCard(updateCard);
+  }
 
   const onLogout = () =>{
     authService.logout();
@@ -62,7 +64,7 @@ const MyPage = ({ authService }) => {
             userName={userName} 
             userEmail={userEmail} 
             loginKind={loginKind}
-            card={card}
+            onUpdate={updateCard}
           />
         </div>
       </main>

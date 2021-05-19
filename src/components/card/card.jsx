@@ -3,7 +3,7 @@ import styles from './card.module.css';
 
 const Card = ({userName, loginKind, card}) => {
   
-  const {name, theme, nickName, email, message, fileName, fileURL} = card;
+  const {theme, message, fileName, fileURL} = card;
   const DEFAULT_IMAGE = '/images/ico/nullProfile.png';
   const url = fileURL || DEFAULT_IMAGE;
   const onChange = () => {
