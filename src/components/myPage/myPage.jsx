@@ -25,13 +25,13 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
         setUserId(user.uid);
         //유저의 이메일이 없을경우(비회원로그인)
         if(!user.email){
-          setLoginKind("비회원 로그인");
+          setLoginKind("Anonymous login");
         }else if(user.email){
-          setLoginKind("소셜 로그인");
+          setLoginKind("Social login");
         }
       }
     });
-  },[]); //+[]
+  },[authService]); //+[]
 
 
   useEffect(()=> {

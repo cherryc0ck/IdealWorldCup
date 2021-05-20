@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import CardRepository from '../../service/cardRepository';
 import styles from './card_edit_form.module.css';
 
 const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
