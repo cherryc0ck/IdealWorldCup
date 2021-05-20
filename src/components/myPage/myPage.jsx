@@ -10,18 +10,11 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
   const [userName, setUserName] = useState();
   const [userEmail, setUserEmail] = useState();
   const [loginKind, setLoginKind] = useState();
-  const [userId, setUserId] = useState();
 
-
-  const [card, setCard] = useState(
-    {
-      id : '1',
-      theme: 'white',
-      message : 'please enter your message',
-      fileName: 'eee',
-      fileURL: null
-    }
-  );
+  const history = useHistory();
+  const historyState = history?.location?.state;
+  const [userId, setUserId] = useState(historyState && historyState.id);
+  const [card, setCard] = useState({});
 
   useEffect(()=>{
     authService.onAuthChange(user => {
@@ -38,7 +31,19 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
         }
       }
     });
-  },[authService]);
+  },[]); //+[]
+
+
+  useEffect(()=> {
+    if(!userId){
+      return;
+    }
+    const stopSync = cardRepository.syncCards(userId, card => {
+      setCard(card);
+    });
+    return () => stopSync(); 
+  },[userId]);
+
 
   useEffect(() => {
     return () => setLoading(false);
@@ -49,9 +54,11 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
   };
 
   const updateCard = (updateCard) =>{
-    setCard(updateCard);
-    console.log(updateCard.id);
-    console.log(`userId = ${userId}`);
+    setCard(card => {
+      const updated = { ...card};
+      updated[updateCard.id] = updateCard;
+      return updated;
+    });
     cardRepository.saveCard(userId, updateCard);
   };
 

@@ -39,8 +39,7 @@ const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
 
 
   const goToMain = user =>{
-    console.log(user);
-    console.log("goToMain에 의해 메인일때")
+    // console.log(user);
     history.push({
       pathname : '/main',
       id : {id : user.uid}
@@ -50,14 +49,15 @@ const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
   const goToPage = (event) => {
     const target = event.target.innerHTML;
     authService.onAuthChange(user => {
+      if(!user) {
+        return;
+      }
       if(target === "Main"){
-        console.log("메인일떄");
         history.push({
           pathname : '/main',
           id : {id : user.uid}
         });
       }else if(target === "MyPage"){
-        console.log("마이페이지일때");
         history.push({
           pathname : '/mypage',
           id : {id : user.uid}

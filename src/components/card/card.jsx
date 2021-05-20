@@ -6,16 +6,15 @@ const Card = ({userName, loginKind, card}) => {
   const {theme, message, fileName, fileURL} = card;
   const DEFAULT_IMAGE = '/images/ico/nullProfile.png';
   const url = fileURL || DEFAULT_IMAGE;
-  const onChange = () => {
-    return;
-  }
   return(
-    <div className={`${styles.card} ${getStyles(theme)}`}>
-      <img 
-        src={url}
-        className={styles.avatar} 
-        alt="profilePhoto" 
-      />
+    <div className={`${styles.card}  ${getStyles(theme)}`}>
+      <div className={styles.profile}>
+        <img 
+          src={url}
+          className={styles.profileImg} 
+          alt="profilePhoto" 
+        />
+      </div>
       <div className={styles.info}>
         <p className={styles.hello}>
           {userName ? userName : "비회원"}
@@ -37,8 +36,10 @@ function getStyles(theme){
       return styles.pink;
     case 'colorful' :
       return styles.colorful;
+    case undefined :
+      return styles.white;
     default:
-      throw new Error('theme error');
+      throw new Error(`unknown theme: ${theme}`);
   }
 }
 

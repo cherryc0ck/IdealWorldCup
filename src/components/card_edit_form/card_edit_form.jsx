@@ -24,7 +24,7 @@ const CardEditForm = ({FileInput, userName, userEmail ,updateCard, info}) => {
     event.preventDefault();
     updateCard({
       ...info,
-      [event.currentTarget.name] : event.currentTarget.value
+      [event.currentTarget.name] : event.currentTarget.value,
     });
   };
 
