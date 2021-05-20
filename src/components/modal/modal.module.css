@@ -20,7 +20,7 @@ button {
 }
 
 .container {
-  width: 80%;
+  width: calc(1000px + 32px);
   margin: 0 auto;
   border-radius: 0.6em;
   background-color: makerWhite;
@@ -107,5 +107,23 @@ button {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: calc(900px + 32px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: calc(720px + 32px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: calc(540px + 32px);
   }
 }

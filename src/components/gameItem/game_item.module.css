@@ -39,7 +39,7 @@
 }
 
 .button {
-  width: 40%;
+  width: 80px;
   height: 35px;
   border: 1px solid makerBlack;
   border-radius: 4px;
@@ -54,4 +54,29 @@
 .button:hover {
   background-color: makerBlack;
   color: makerWhite;
+}
+
+@media screen and (max-width: 1200px) {
+  .game {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .game {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .game {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .game {
+    width: 90%;
+  }
 }

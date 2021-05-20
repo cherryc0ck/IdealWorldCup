@@ -263,8 +263,8 @@
 
     {
       "index" : 3,
-      "title" : "애니메이션 남자캐릭터 월드컵",
-      "img" : "./images/game/cartoonMale/오리하라이자야.jpg",
+      "title" : "남자캐릭터 월드컵",
+      "img" : "./images/game/cartoonMale/카네키켄.jpg",
       "items" : [
         {
           "name" : "롤로노아 조로",
