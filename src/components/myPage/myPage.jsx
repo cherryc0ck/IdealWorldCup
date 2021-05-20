@@ -50,7 +50,8 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
 
   const updateCard = (updateCard) =>{
     setCard(updateCard);
-    console.log(updateCard);
+    console.log(updateCard.id);
+    console.log(`userId = ${userId}`);
     cardRepository.saveCard(userId, updateCard);
   };
 

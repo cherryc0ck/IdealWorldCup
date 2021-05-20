@@ -2,7 +2,7 @@ import firebaseApp from './firebase';
 
 class CardRepository{
   saveCard(userId, updateCard){
-    firebaseApp.database().ref(`${userId}/cards/${updateCard.id}`).set(updateCard);
+    firebaseApp.database().ref(`${userId}/updateCard/${updateCard.id}`).set(updateCard);
   }
 }
 

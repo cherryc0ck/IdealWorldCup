@@ -4,8 +4,8 @@ import styles from './login.module.css';
 
 const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
   const history = useHistory();
-
-  const historyState = useHistory().state;
+  const [loading, setLoading] = useState();
+  const historyState = history?.location?.state;
   const [userId, setUserId] = useState(historyState && historyState.id);
 
   const onLogin = event => {
@@ -32,6 +32,10 @@ const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
       }
     });
   });
+
+  useEffect(() => {
+    return () => setLoading(false);
+  }, [loading]);
 
 
   const goToMain = user =>{
