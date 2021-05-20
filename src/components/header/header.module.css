@@ -18,8 +18,72 @@
   margin-bottom: 20px;
   border-bottom: 3px solid makerWhite;
   color: makerWhite;
-  font-size: 56px;
+  font-size: 54px;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2em;
+}
+
+.imgContainer {
+  margin-top: 8px;
+  border-top: 3px solid makerWhite;
+}
+
+.cupOne,
+.cupTwo {
+  width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 44px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .title {
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 28px;
+    line-height: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 22px;
+    line-height: 2.5em;
+  }
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+  .cupOne {
+    width: 80%;
+  }
+  .cupTwo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 19px;
+    line-height: 3em;
+    text-align: center;
+  }
 }

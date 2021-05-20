@@ -20,6 +20,10 @@ const Header = ({ authService, onLogout, loginKind, cardRepository }) => {
         loginKind={loginKind}
         cardRepository={cardRepository}
       />
+      <div className={styles.imgContainer}>
+        <img className={styles.cupOne} src="./images/ico/cup.png" alt="cup" />
+        <img className={styles.cupTwo} src="./images/ico/cup.png" alt="cup" />
+      </div>
     </div>
   </header>
   )
