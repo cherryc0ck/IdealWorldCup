@@ -2,11 +2,9 @@ import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import styles from './login.module.css';
 
-const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
+const Login = ({ authService, onLogout, loginKind}) => {
   const history = useHistory();
   const [loading, setLoading] = useState();
-  const historyState = history?.location?.state;
-  const [userId, setUserId] = useState(historyState && historyState.id);
 
   const onLogin = event => {
     const target = event.target.innerHTML;
@@ -26,7 +24,8 @@ const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
   useEffect(()=>{
     authService.onAuthChange(user => {
       if(user){
-        setUserId(user.uid);
+        return;
+        // setUserId(user.uid);
       }else if(!user) {
         history.push('/');
       }
