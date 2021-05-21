@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import styles from './image_file_input.module.css';
 
-const ImageFileInput = ({ imageUploader, name, onFileChange }) => {
+const ImageFileInput = ({ imageUploader, onFileChange }) => {
   const inputRef = useRef();
-  
+
   const onButtonClick = (event) => {
     event.preventDefault();
     inputRef.current.click();
@@ -21,7 +21,8 @@ const ImageFileInput = ({ imageUploader, name, onFileChange }) => {
     <div className={styles.container}>
       <input ref={inputRef} className={styles.input} type="file" accept="image/*" name="file" onChange={onChange} />
       <button className={styles.button} onClick={onButtonClick}>
-        {name || (<i className="far fa-images"></i>)}</button>
+        <i className="far fa-images"></i>
+      </button>
     </div>
   );
 };

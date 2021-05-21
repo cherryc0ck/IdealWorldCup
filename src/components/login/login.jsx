@@ -39,7 +39,6 @@ const Login = ({ authService, onLogout, loginKind, cardRepository}) => {
 
 
   const goToMain = user =>{
-    // console.log(user);
     history.push({
       pathname : '/main',
       id : {id : user.uid}

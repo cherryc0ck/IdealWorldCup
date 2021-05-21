@@ -14,3 +14,9 @@
   color: makerBlack;
   font-size: 36px;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 20%;
+  }
+}
