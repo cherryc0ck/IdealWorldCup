@@ -66,24 +66,20 @@ const Login = ({ authService, onLogout, loginKind}) => {
 
   return(
     <div className={styles.container}>
-      {
-        onLogout && 
+      {onLogout ? 
         <>
           <button className={styles.button} onClick={onLogout}>Logout</button>
           <button className={styles.button} onClick={goToPage}>
             {loginKind ? "Main" : "MyPage"}  
           </button>
         </>
-      }
-      {
-        onLogout ||
+        :
         <>
           <button className={styles.button} onClick={onLogin}>Google</button>
           <button className={styles.button} onClick={onLogin}>Github</button>
           <button className={styles.button} onClick={onLogin}>Anonymous</button>
         </>
       }
-
     </div>
   );
 }

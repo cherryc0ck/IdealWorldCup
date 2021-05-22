@@ -43,7 +43,7 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
       setCard(card);
     });
     return () => stopSync(); 
-  },[userId]);
+  },[userId, cardRepository]);
 
 
   useEffect(() => {
