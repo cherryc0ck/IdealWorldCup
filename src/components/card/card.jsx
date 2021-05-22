@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import styles from './card.module.css';
 
-const Card = ({userName, loginKind, card}) => {
+const Card = memo(({userName, loginKind, card}) => {
   
   const {theme, message, fileURL} = card;
   const DEFAULT_IMAGE = '/images/ico/nullProfile.png';
@@ -24,7 +24,7 @@ const Card = ({userName, loginKind, card}) => {
       </div>
     </div>
   )
-};
+});
 
 function getStyles(theme){
   switch(theme){

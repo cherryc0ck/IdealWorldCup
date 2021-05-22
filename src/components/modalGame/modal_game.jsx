@@ -40,7 +40,7 @@ const ModalGame = ({game, onProgress}) => {
               onClick={clickHandler(display)}
             >
               <div className={styles.imgContainer}>
-                <img className={styles.img} src={display.src} alt="worldCup img"/>
+                <img className={styles.img} src={display.src} data-name={display.name} alt="worldCup img"/>
               </div>
               <p className={styles.name} src={display.name}>{display.name}</p>
             </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 
 import Card from '../card/card';
@@ -50,9 +50,9 @@ const MyPage = ({ FileInput, authService, cardRepository }) => {
     return () => setLoading(false);
   }, [loading]);
 
-  const onLogout = () =>{
+  const onLogout = useCallback(() =>{
     authService.logout();
-  };
+  }, [authService]);
 
   const updateCard = (updateCard) =>{
     setCard(card => {

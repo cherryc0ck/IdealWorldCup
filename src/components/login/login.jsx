@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
 import styles from './login.module.css';
 
-const Login = ({ authService, onLogout, loginKind}) => {
+const Login = memo(({ authService, onLogout, loginKind}) => {
   const history = useHistory();
   const [loading, setLoading] = useState();
 
@@ -82,6 +82,6 @@ const Login = ({ authService, onLogout, loginKind}) => {
       }
     </div>
   );
-}
+});
 
 export default Login;

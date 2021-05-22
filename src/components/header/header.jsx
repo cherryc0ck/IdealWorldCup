@@ -1,9 +1,8 @@
-import React  from 'react';
+import React, { memo }  from 'react';
 import Login from '../login/login';
 import styles from './header.module.css';
 
-const Header = ({ authService, onLogout, loginKind, cardRepository }) => {
-
+const Header = memo(({ authService, onLogout, loginKind, cardRepository }) => {
   return (
   <header className={styles.header}>
     <div className={styles.container}>
@@ -27,6 +26,6 @@ const Header = ({ authService, onLogout, loginKind, cardRepository }) => {
     </div>
   </header>
   )
-};
+});
 
 export default Header;
