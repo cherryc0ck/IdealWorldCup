@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/IdealWorldCup/static/css/main.db94be36.chunk.css",
+    "main.js": "/IdealWorldCup/static/js/main.e7f92b11.chunk.js",
+    "main.js.map": "/IdealWorldCup/static/js/main.e7f92b11.chunk.js.map",
+    "runtime-main.js": "/IdealWorldCup/static/js/runtime-main.6d9e3958.js",
+    "runtime-main.js.map": "/IdealWorldCup/static/js/runtime-main.6d9e3958.js.map",
+    "static/js/2.71dd4748.chunk.js": "/IdealWorldCup/static/js/2.71dd4748.chunk.js",
+    "static/js/2.71dd4748.chunk.js.map": "/IdealWorldCup/static/js/2.71dd4748.chunk.js.map",
+    "index.html": "/IdealWorldCup/index.html",
+    "static/css/main.db94be36.chunk.css.map": "/IdealWorldCup/static/css/main.db94be36.chunk.css.map",
+    "static/js/2.71dd4748.chunk.js.LICENSE.txt": "/IdealWorldCup/static/js/2.71dd4748.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d9e3958.js",
+    "static/js/2.71dd4748.chunk.js",
+    "static/css/main.db94be36.chunk.css",
+    "static/js/main.e7f92b11.chunk.js"
+  ]
+}
