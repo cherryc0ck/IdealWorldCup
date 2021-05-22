@@ -1,10 +1,12 @@
-import React from 'react';
+import React  from 'react';
 import GameItem from '../gameItem/game_item';
-import worldCupData from '../../data/worldCup.json';
+import jsonData from '../../data/worldCup.json';
+import {cloneDeep} from 'lodash';
 import styles from './game_list.module.css';
 
-const GameList = (props) => {
+const worldCupData = cloneDeep(jsonData);
 
+const GameList = (props) => {
   return(
     <ul className={styles.container}>
       {worldCupData.category.map(game=>(

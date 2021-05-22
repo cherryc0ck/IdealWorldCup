@@ -1,782 +1,926 @@
 {
-  "category" : [
+  "category": [
     {
-      "index" : 0,
-      "title" : "음식 월드컵",
-      "img" : "./images/game/rep/food.jpg",
-      "items" : [
+      "index": 0,
+      "title": "음식 월드컵",
+      "img": "./images/game/rep/food.jpg",
+      "items": [
         {
-          "name" : "봉지라면",
-          "src" : "./images/game/food/bagRamen.jpg"
+          "name": "봉지라면",
+          "src": "./images/game/food/bagRamen.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "자장면",
-          "src" : "./images/game/food/blackNoodles.jpg"
+          "name": "자장면",
+          "src": "./images/game/food/blackNoodles.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "치킨",
-          "src" : "./images/game/food/chicken.jpg"
+          "name": "치킨",
+          "src": "./images/game/food/chicken.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "햄버거",
-          "src" : "./images/game/food/hamburger.jfif"
+          "name": "햄버거",
+          "src": "./images/game/food/hamburger.jfif",
+          "isSelected": false
         },
 
         {
-          "name" : "일본식 라멘",
-          "src" : "./images/game/food/japanRamen.jpg"
+          "name": "일본식 라멘",
+          "src": "./images/game/food/japanRamen.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김밥",
-          "src" : "./images/game/food/kimbob.jpg"
+          "name": "김밥",
+          "src": "./images/game/food/kimbob.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김치찌개",
-          "src" : "./images/game/food/kimchiStew.jpg"
+          "name": "김치찌개",
+          "src": "./images/game/food/kimchiStew.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "마라탕",
-          "src" : "./images/game/food/maratang.jpg"
+          "name": "마라탕",
+          "src": "./images/game/food/maratang.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "피자",
-          "src" : "./images/game/food/pizza.jpg"
+          "name": "피자",
+          "src": "./images/game/food/pizza.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "돈까스",
-          "src" : "./images/game/food/porkCutlet.jpg"
+          "name": "돈까스",
+          "src": "./images/game/food/porkCutlet.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "된장찌개",
-          "src" : "./images/game/food/soybeanPasteStew.jpg"
+          "name": "된장찌개",
+          "src": "./images/game/food/soybeanPasteStew.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "수제비",
-          "src" : "./images/game/food/sujebi.jpg"
+          "name": "수제비",
+          "src": "./images/game/food/sujebi.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "초밥",
-          "src" : "./images/game/food/sushi.jpg"
+          "name": "초밥",
+          "src": "./images/game/food/sushi.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "다코야끼",
-          "src" : "./images/game/food/takoyaki.jpg"
+          "name": "다코야끼",
+          "src": "./images/game/food/takoyaki.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "떡만두국",
-          "src" : "./images/game/food/tteogmandugug.jpg"
+          "name": "떡만두국",
+          "src": "./images/game/food/tteogmandugug.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "떡볶이",
-          "src" : "./images/game/food/tteokbokki.jpg"
+          "name": "떡볶이",
+          "src": "./images/game/food/tteokbokki.jpg",
+          "isSelected": false
         }
       ]
     },
 
     {
-      "index" : 1,
-      "title" : "여자연예인 월드컵",
-      "img" : "./images/game/rep/girl.jpg",
-      "items" : [
+      "index": 1,
+      "title": "여자연예인 월드컵",
+      "img": "./images/game/rep/girl.jpg",
+      "items": [
         {
-          "name" : "헤이즈",
-          "src" : "./images/game/girl/haze.jpg"
+          "name": "헤이즈",
+          "src": "./images/game/girl/haze.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아이린",
-          "src" : "./images/game/girl/Irene.jpg"
+          "name": "아이린",
+          "src": "./images/game/girl/Irene.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아이유",
-          "src" : "./images/game/girl/IU.jpg"
+          "name": "아이유",
+          "src": "./images/game/girl/IU.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "제니",
-          "src" : "./images/game/girl/Jennie.jpg"
+          "name": "제니",
+          "src": "./images/game/girl/Jennie.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "조보아",
-          "src" : "./images/game/girl/JoBoa.jpg"
+          "name": "조보아",
+          "src": "./images/game/girl/JoBoa.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김사랑",
-          "src" : "./images/game/girl/KimSaRang.jpg"
+          "name": "김사랑",
+          "src": "./images/game/girl/KimSaRang.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김소연",
-          "src" : "./images/game/girl/KimSoYeon.jpg"
+          "name": "김소연",
+          "src": "./images/game/girl/KimSoYeon.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김태희",
-          "src" : "./images/game/girl/KimTaeHee.jpg"
+          "name": "김태희",
+          "src": "./images/game/girl/KimTaeHee.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "김태리",
-          "src" : "./images/game/girl/KimTaeRi.jpg"
+          "name": "김태리",
+          "src": "./images/game/girl/KimTaeRi.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "이지아",
-          "src" : "./images/game/girl/LeeJia.jpg"
+          "name": "이지아",
+          "src": "./images/game/girl/LeeJia.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "박신혜",
-          "src" : "./images/game/girl/ParkShinHye.jpg"
+          "name": "박신혜",
+          "src": "./images/game/girl/ParkShinHye.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "신혜선",
-          "src" : "./images/game/girl/ShinHyeSun.jpg"
+          "name": "신혜선",
+          "src": "./images/game/girl/ShinHyeSun.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "손담비",
-          "src" : "./images/game/girl/SonDamBi.jpg"
+          "name": "손담비",
+          "src": "./images/game/girl/SonDamBi.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "손예진",
-          "src" : "./images/game/girl/SonYeJin.jpg"
+          "name": "손예진",
+          "src": "./images/game/girl/SonYeJin.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "수지",
-          "src" : "./images/game/girl/Suzi.jpg"
+          "name": "수지",
+          "src": "./images/game/girl/Suzi.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "유인나",
-          "src" : "./images/game/girl/YooInNa.jpg"
+          "name": "유인나",
+          "src": "./images/game/girl/YooInNa.jpg",
+          "isSelected": false
         }
       ]
     },
 
     {
-      "index" : 2,
-      "title" : "남자연예인 월드컵",
-      "img" : "./images/game/boy/YeoJinGu.jpg",
-      "items" : [
+      "index": 2,
+      "title": "남자연예인 월드컵",
+      "img": "./images/game/boy/YeoJinGu.jpg",
+      "items": [
         {
-          "name" : "차은우",
-          "src" : "./images/game/boy/ChaEunWoo.jpg"
+          "name": "차은우",
+          "src": "./images/game/boy/ChaEunWoo.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "공유",
-          "src" : "./images/game/boy/GongYou.jpg"
+          "name": "공유",
+          "src": "./images/game/boy/GongYou.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "황민현",
-          "src" : "./images/game/boy/HwangMinHyun.jpg"
+          "name": "황민현",
+          "src": "./images/game/boy/HwangMinHyun.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "현빈",
-          "src" : "./images/game/boy/HyunBin.jpg"
+          "name": "현빈",
+          "src": "./images/game/boy/HyunBin.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "박재범",
-          "src" : "./images/game/boy/JayPark.jpg"
+          "name": "박재범",
+          "src": "./images/game/boy/JayPark.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "정해인",
-          "src" : "./images/game/boy/JungHaEin.jpg"
+          "name": "정해인",
+          "src": "./images/game/boy/JungHaEin.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "강다니엘",
-          "src" : "./images/game/boy/KangDaniel.jpg"
+          "name": "강다니엘",
+          "src": "./images/game/boy/KangDaniel.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "이병헌",
-          "src" : "./images/game/boy/LeeByungHun.jpeg"
+          "name": "이병헌",
+          "src": "./images/game/boy/LeeByungHun.jpeg",
+          "isSelected": false
         },
 
         {
-          "name" : "정국",
-          "src" : "./images/game/boy/JungKook.jpg"
+          "name": "정국",
+          "src": "./images/game/boy/JungKook.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "강동원",
-          "src" : "./images/game/boy/KangDongWon.jpg"
+          "name": "강동원",
+          "src": "./images/game/boy/KangDongWon.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "이동욱",
-          "src" : "./images/game/boy/LeeDongWook.jpg"
+          "name": "이동욱",
+          "src": "./images/game/boy/LeeDongWook.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "박보검",
-          "src" : "./images/game/boy/ParkBoGum.jpg"
+          "name": "박보검",
+          "src": "./images/game/boy/ParkBoGum.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "박서준",
-          "src" : "./images/game/boy/ParkSeoJun.jpg"
+          "name": "박서준",
+          "src": "./images/game/boy/ParkSeoJun.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "류준열",
-          "src" : "./images/game/boy/RyuJunYeol.jpg"
+          "name": "류준열",
+          "src": "./images/game/boy/RyuJunYeol.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "서강준",
-          "src" : "./images/game/boy/SeoKangJoon.jpeg"
+          "name": "서강준",
+          "src": "./images/game/boy/SeoKangJoon.jpeg",
+          "isSelected": false
         },
 
         {
-          "name" : "여진구",
-          "src" : "./images/game/boy/YeoJinGu.jpg"
+          "name": "여진구",
+          "src": "./images/game/boy/YeoJinGu.jpg",
+          "isSelected": false
         }
       ]
     },
 
     {
-      "index" : 3,
-      "title" : "남자캐릭터 월드컵",
-      "img" : "./images/game/cartoonMale/카네키켄.jpg",
-      "items" : [
+      "index": 3,
+      "title": "남자캐릭터 월드컵",
+      "img": "./images/game/cartoonMale/카네키켄.jpg",
+      "items": [
         {
-          "name" : "롤로노아 조로",
-          "src" : "./images/game/cartoonMale/롤로노아조로.jpg"
+          "name": "롤로노아 조로",
+          "src": "./images/game/cartoonMale/롤로노아조로.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "몽키D루피",
-          "src" : "./images/game/cartoonMale/몽키d루피.jpg"
+          "name": "몽키D루피",
+          "src": "./images/game/cartoonMale/몽키d루피.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "리바이",
-          "src" : "./images/game/cartoonMale/리바이.jpg"
+          "name": "리바이",
+          "src": "./images/game/cartoonMale/리바이.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "사이타마",
-          "src" : "./images/game/cartoonMale/사이타마.jpg"
+          "name": "사이타마",
+          "src": "./images/game/cartoonMale/사이타마.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "셋쇼마루",
-          "src" : "./images/game/cartoonMale/셋쇼마루.jpg"
+          "name": "셋쇼마루",
+          "src": "./images/game/cartoonMale/셋쇼마루.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "센",
-          "src" : "./images/game/cartoonMale/센.jpg"
+          "name": "센",
+          "src": "./images/game/cartoonMale/센.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아리마 키쇼",
-          "src" : "./images/game/cartoonMale/아리마키쇼.jpg"
+          "name": "아리마 키쇼",
+          "src": "./images/game/cartoonMale/아리마키쇼.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "오리하라 이자야",
-          "src" : "./images/game/cartoonMale/오리하라이자야.jpg"
+          "name": "오리하라 이자야",
+          "src": "./images/game/cartoonMale/오리하라이자야.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "우즈마키 나루토",
-          "src" : "./images/game/cartoonMale/우즈마키나루토.jpg"
+          "name": "우즈마키 나루토",
+          "src": "./images/game/cartoonMale/우즈마키나루토.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "우치하사스케",
-          "src" : "./images/game/cartoonMale/우치하사스케.jpg"
+          "name": "우치하사스케",
+          "src": "./images/game/cartoonMale/우치하사스케.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "이누야샤",
-          "src" : "./images/game/cartoonMale/이누야샤.jpg"
+          "name": "이누야샤",
+          "src": "./images/game/cartoonMale/이누야샤.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "카네키 켄",
-          "src" : "./images/game/cartoonMale/카네키켄.jpg"
+          "name": "카네키 켄",
+          "src": "./images/game/cartoonMale/카네키켄.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "카마도 탄지로",
-          "src" : "./images/game/cartoonMale/카마도탄지로.jpg"
+          "name": "카마도 탄지로",
+          "src": "./images/game/cartoonMale/카마도탄지로.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "트라팔가 로우",
-          "src" : "./images/game/cartoonMale/트라팔가로우.jpg"
+          "name": "트라팔가 로우",
+          "src": "./images/game/cartoonMale/트라팔가로우.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "하울",
-          "src" : "./images/game/cartoonMale/하울.jpg"
+          "name": "하울",
+          "src": "./images/game/cartoonMale/하울.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "헤이와지마 시즈오",
-          "src" : "./images/game/cartoonMale/헤이와지마시즈오.jpg"
+          "name": "헤이와지마 시즈오",
+          "src": "./images/game/cartoonMale/헤이와지마시즈오.jpg",
+          "isSelected": false
         }
       ]
     },
     {
-      "index" : 4,
-      "title" : "해외영화 월드컵",
-      "img" : "./images/game/overseasMovies/인셉션.jpg",
-      "items" : [
+      "index": 4,
+      "title": "해외영화 월드컵",
+      "img": "./images/game/overseasMovies/인셉션.jpg",
+      "items": [
         {
-          "name" : "나비효과",
-          "src" : "./images/game/overseasMovies/나비효과.jpg"
+          "name": "나비효과",
+          "src": "./images/game/overseasMovies/나비효과.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "라라랜드",
-          "src" : "./images/game/overseasMovies/라라랜드.jpg"
+          "name": "라라랜드",
+          "src": "./images/game/overseasMovies/라라랜드.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "메멘토",
-          "src" : "./images/game/overseasMovies/메멘토.jpg"
+          "name": "메멘토",
+          "src": "./images/game/overseasMovies/메멘토.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "셔터아일랜드",
-          "src" : "./images/game/overseasMovies/셔터아일랜드.jpg"
+          "name": "셔터아일랜드",
+          "src": "./images/game/overseasMovies/셔터아일랜드.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "쇼생크탈출",
-          "src" : "./images/game/overseasMovies/쇼생크탈출.jpg"
+          "name": "쇼생크탈출",
+          "src": "./images/game/overseasMovies/쇼생크탈출.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아이덴티티",
-          "src" : "./images/game/overseasMovies/아이덴티티.jpg"
+          "name": "아이덴티티",
+          "src": "./images/game/overseasMovies/아이덴티티.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "어벤져스",
-          "src" : "./images/game/overseasMovies/어벤져스.jpg"
+          "name": "어벤져스",
+          "src": "./images/game/overseasMovies/어벤져스.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "월요일이 사라졌다",
-          "src" : "./images/game/overseasMovies/월요일이사라졌다.jpg"
+          "name": "월요일이 사라졌다",
+          "src": "./images/game/overseasMovies/월요일이사라졌다.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "유주얼서스펙트",
-          "src" : "./images/game/overseasMovies/유주얼서스펙트.jpg"
+          "name": "유주얼서스펙트",
+          "src": "./images/game/overseasMovies/유주얼서스펙트.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "인셉션",
-          "src" : "./images/game/overseasMovies/인셉션.jpg"
+          "name": "인셉션",
+          "src": "./images/game/overseasMovies/인셉션.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "인터스텔라",
-          "src" : "./images/game/overseasMovies/인터스텔라.jpg"
+          "name": "인터스텔라",
+          "src": "./images/game/overseasMovies/인터스텔라.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "킹스맨",
-          "src" : "./images/game/overseasMovies/킹스맨.jpg"
+          "name": "킹스맨",
+          "src": "./images/game/overseasMovies/킹스맨.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "테넷",
-          "src" : "./images/game/overseasMovies/테넷.jpg"
+          "name": "테넷",
+          "src": "./images/game/overseasMovies/테넷.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "트루먼쇼",
-          "src" : "./images/game/overseasMovies/트루먼쇼.jpg"
+          "name": "트루먼쇼",
+          "src": "./images/game/overseasMovies/트루먼쇼.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "파이트클럽",
-          "src" : "./images/game/overseasMovies/파이트클럽.jpg"
+          "name": "파이트클럽",
+          "src": "./images/game/overseasMovies/파이트클럽.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "혹성탈출",
-          "src" : "./images/game/overseasMovies/혹성탈출.jpg"
-        }
-      ]
-    },
-
-    {
-      "index" : 5,
-      "title" : "한국영화 월드컵",
-      "img" : "./images/game/koreaMovies/기생충.jpg",
-      "items" : [
-        {
-          "name" : "7광구",
-          "src" : "./images/game/koreaMovies/7광구.jpg"
-        },
-
-        {
-          "name" : "곡성",
-          "src" : "./images/game/koreaMovies/곡성.jpg"
-        },
-
-        {
-          "name" : "광해",
-          "src" : "./images/game/koreaMovies/광해.jpg"
-        },
-
-        {
-          "name" : "괴물",
-          "src" : "./images/game/koreaMovies/괴물.jpg"
-        },
-
-        {
-          "name" : "기생충",
-          "src" : "./images/game/koreaMovies/기생충.jpg"
-        },
-
-        {
-          "name" : "내부자들",
-          "src" : "./images/game/koreaMovies/내부자들.jpg"
-        },
-
-        {
-          "name" : "마녀",
-          "src" : "./images/game/koreaMovies/마녀.jpg"
-        },
-
-        {
-          "name" : "명량",
-          "src" : "./images/game/koreaMovies/명량.jpg"
-        },
-
-        {
-          "name" : "변호인",
-          "src" : "./images/game/koreaMovies/변호인.jpg"
-        },
-
-        {
-          "name" : "부당거래",
-          "src" : "./images/game/koreaMovies/부당거래.jpg"
-        },
-
-        {
-          "name" : "설국열차",
-          "src" : "./images/game/koreaMovies/신세계.jpg"
-        },
-
-        {
-          "name" : "써니",
-          "src" : "./images/game/koreaMovies/써니.jpg"
-        },
-
-        {
-          "name" : "암살",
-          "src" : "./images/game/koreaMovies/암살.jpg"
-        },
-
-        {
-          "name" : "추격자",
-          "src" : "./images/game/koreaMovies/추격자.jpg"
-        },
-
-        {
-          "name" : "타짜",
-          "src" : "./images/game/koreaMovies/타짜.jpg"
-        },
-
-        {
-          "name" : "신세계",
-          "src" : "./images/game/koreaMovies/신세계.jpg"
-        }
-      ]
-    },
-    {
-      "index" : 6,
-      "title" : "외국남성배우 월드컵",
-      "img" : "./images/game/overseasMan/로버트패틴슨.jpg",
-      "items" : [
-        {
-          "name" : "다니엘 래드클리프",
-          "src" : "./images/game/overseasMan/다니엘래드클리프.jpg"
-        },
-
-        {
-          "name" : "레오나르도 디카프리오",
-          "src" : "./images/game/overseasMan/레오나르도디카프리오.jpg"
-        },
-
-        {
-          "name" : "로버트 다우니 주니어",
-          "src" : "./images/game/overseasMan/로버트다우니주니어.jpg"
-        },
-
-        {
-          "name" : "로버트 패틴슨",
-          "src" : "./images/game/overseasMan/로버트패틴슨.jpg"
-        },
-
-        {
-          "name" : "베네딕트 컴버배치",
-          "src" : "./images/game/overseasMan/베네딕트컴버배치.jpg"
-        },
-
-        {
-          "name" : "브래드 피트",
-          "src" : "./images/game/overseasMan/브래드피트.jpg"
-        },
-
-        {
-          "name" : "제임스 맥어보이",
-          "src" : "./images/game/overseasMan/제임스맥어보이.jpg"
-        },
-
-        {
-          "name" : "짐 캐리",
-          "src" : "./images/game/overseasMan/짐캐리.jpg"
-        },
-
-        {
-          "name" : "크리스 에반스",
-          "src" : "./images/game/overseasMan/크리스에반스.jpg"
-        },
-
-        {
-          "name" : "크리스찬 베일",
-          "src" : "./images/game/overseasMan/크리스찬베일.jpg"
-        },
-
-        {
-          "name" : "크리스 햄스워스",
-          "src" : "./images/game/overseasMan/크리스햄스워스.jpg"
-        },
-
-        {
-          "name" : "태런에저튼",
-          "src" : "./images/game/overseasMan/태런에저튼.jpg"
-        },
-
-        {
-          "name" : "톰 크루즈",
-          "src" : "./images/game/overseasMan/톰크루즈.jpg"
-        },
-
-        {
-          "name" : "톰 하디",
-          "src" : "./images/game/overseasMan/톰하디.jpg"
-        },
-
-        {
-          "name" : "톰 홀랜드",
-          "src" : "./images/game/overseasMan/톰홀랜드.jpg"
-        },
-
-        {
-          "name" : "톰 히들스턴",
-          "src" : "./images/game/overseasMan/톰히들스턴.jpg"
+          "name": "혹성탈출",
+          "src": "./images/game/overseasMovies/혹성탈출.jpg",
+          "isSelected": false
         }
       ]
     },
 
     {
-      "index" : 7,
-      "title" : "외국여성배우 월드컵",
-      "img" : "./images/game/overseasWoman/마고로비.jpg",
-      "items" : [
+      "index": 5,
+      "title": "한국영화 월드컵",
+      "img": "./images/game/koreaMovies/기생충.jpg",
+      "items": [
         {
-          "name" : "나탈리 도메르",
-          "src" : "./images/game/overseasWoman/나탈리도메르.jpg"
+          "name": "7광구",
+          "src": "./images/game/koreaMovies/7광구.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "나탈리 포트만",
-          "src" : "./images/game/overseasWoman/나탈리포트만.jpg"
+          "name": "곡성",
+          "src": "./images/game/koreaMovies/곡성.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "마고 로비",
-          "src" : "./images/game/overseasWoman/마고로비.jpg"
+          "name": "광해",
+          "src": "./images/game/koreaMovies/광해.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "메간 폭스",
-          "src" : "./images/game/overseasWoman/메간폭스.jpg"
+          "name": "괴물",
+          "src": "./images/game/koreaMovies/괴물.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "샤를리즈 테론",
-          "src" : "./images/game/overseasWoman/샤를리즈테론.png"
+          "name": "기생충",
+          "src": "./images/game/koreaMovies/기생충.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "스칼렛 요한슨",
-          "src" : "./images/game/overseasWoman/스칼렛요한슨.jpg"
+          "name": "내부자들",
+          "src": "./images/game/koreaMovies/내부자들.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아만다 사이프리드",
-          "src" : "./images/game/overseasWoman/아만다사이프리드.jpg"
+          "name": "마녀",
+          "src": "./images/game/koreaMovies/마녀.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "안젤리나 졸리",
-          "src" : "./images/game/overseasWoman/안젤리나졸리.jpg"
+          "name": "명량",
+          "src": "./images/game/koreaMovies/명량.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "앤 해서웨이",
-          "src" : "./images/game/overseasWoman/앤해서웨이.jpg"
+          "name": "변호인",
+          "src": "./images/game/koreaMovies/변호인.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "에밀리 반캠프",
-          "src" : "./images/game/overseasWoman/에밀리반캠프.jpg"
+          "name": "부당거래",
+          "src": "./images/game/koreaMovies/부당거래.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "에밀리아 클라크",
-          "src" : "./images/game/overseasWoman/에밀리아클라크.jpg"
+          "name": "설국열차",
+          "src": "./images/game/koreaMovies/신세계.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "에바 그린",
-          "src" : "./images/game/overseasWoman/에바그린.jpg"
+          "name": "써니",
+          "src": "./images/game/koreaMovies/써니.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "엠마 스톤",
-          "src" : "./images/game/overseasWoman/엠마스톤.jpg"
+          "name": "암살",
+          "src": "./images/game/koreaMovies/암살.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "엠마 왓슨",
-          "src" : "./images/game/overseasWoman/엠마왓슨.jpg"
+          "name": "추격자",
+          "src": "./images/game/koreaMovies/추격자.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "엠버 허드",
-          "src" : "./images/game/overseasWoman/엠버허드.jpg"
+          "name": "타짜",
+          "src": "./images/game/koreaMovies/타짜.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "크리스틴 스튜어트",
-          "src" : "./images/game/overseasWoman/크리스틴스튜어트.jpg"
+          "name": "신세계",
+          "src": "./images/game/koreaMovies/신세계.jpg",
+          "isSelected": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "외국남성배우 월드컵",
+      "img": "./images/game/overseasMan/로버트패틴슨.jpg",
+      "items": [
+        {
+          "name": "다니엘 래드클리프",
+          "src": "./images/game/overseasMan/다니엘래드클리프.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "레오나르도 디카프리오",
+          "src": "./images/game/overseasMan/레오나르도디카프리오.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "로버트 다우니 주니어",
+          "src": "./images/game/overseasMan/로버트다우니주니어.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "로버트 패틴슨",
+          "src": "./images/game/overseasMan/로버트패틴슨.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "베네딕트 컴버배치",
+          "src": "./images/game/overseasMan/베네딕트컴버배치.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "브래드 피트",
+          "src": "./images/game/overseasMan/브래드피트.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "제임스 맥어보이",
+          "src": "./images/game/overseasMan/제임스맥어보이.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "짐 캐리",
+          "src": "./images/game/overseasMan/짐캐리.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "크리스 에반스",
+          "src": "./images/game/overseasMan/크리스에반스.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "크리스찬 베일",
+          "src": "./images/game/overseasMan/크리스찬베일.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "크리스 햄스워스",
+          "src": "./images/game/overseasMan/크리스햄스워스.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "태런에저튼",
+          "src": "./images/game/overseasMan/태런에저튼.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "톰 크루즈",
+          "src": "./images/game/overseasMan/톰크루즈.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "톰 하디",
+          "src": "./images/game/overseasMan/톰하디.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "톰 홀랜드",
+          "src": "./images/game/overseasMan/톰홀랜드.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "톰 히들스턴",
+          "src": "./images/game/overseasMan/톰히들스턴.jpg",
+          "isSelected": false
         }
       ]
     },
 
     {
-      "index" : 8,
-      "title" : "PC게임 월드컵",
-      "img" : "./images/game/pcGame/메이플스토리.jpg",
-      "items" : [
+      "index": 7,
+      "title": "외국여성배우 월드컵",
+      "img": "./images/game/overseasWoman/마고로비.jpg",
+      "items": [
         {
-          "name" : "겟앰프드",
-          "src" : "./images/game/pcGame/겟앰프드.jpg"
+          "name": "나탈리 도메르",
+          "src": "./images/game/overseasWoman/나탈리도메르.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "던전앤파이터",
-          "src" : "./images/game/pcGame/던전앤파이터.jpg"
+          "name": "나탈리 포트만",
+          "src": "./images/game/overseasWoman/나탈리포트만.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "로스트아크",
-          "src" : "./images/game/pcGame/로스트아크.jpg"
+          "name": "마고 로비",
+          "src": "./images/game/overseasWoman/마고로비.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "리그오브레전드",
-          "src" : "./images/game/pcGame/롤.jpg"
+          "name": "메간 폭스",
+          "src": "./images/game/overseasWoman/메간폭스.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "리니지",
-          "src" : "./images/game/pcGame/리니지.jpg"
+          "name": "샤를리즈 테론",
+          "src": "./images/game/overseasWoman/샤를리즈테론.png",
+          "isSelected": false
         },
 
         {
-          "name" : "메이플스토리",
-          "src" : "./images/game/pcGame/메이플스토리.jpg"
+          "name": "스칼렛 요한슨",
+          "src": "./images/game/overseasWoman/스칼렛요한슨.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "배틀그라운드",
-          "src" : "./images/game/pcGame/배틀그라운드.jpg"
+          "name": "아만다 사이프리드",
+          "src": "./images/game/overseasWoman/아만다사이프리드.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "사이퍼즈",
-          "src" : "./images/game/pcGame/사이퍼즈.jpg"
+          "name": "안젤리나 졸리",
+          "src": "./images/game/overseasWoman/안젤리나졸리.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "서든어택",
-          "src" : "./images/game/pcGame/서든어택.jpg"
+          "name": "앤 해서웨이",
+          "src": "./images/game/overseasWoman/앤해서웨이.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "스타크래프트",
-          "src" : "./images/game/pcGame/스타크래프트.jpg"
+          "name": "에밀리 반캠프",
+          "src": "./images/game/overseasWoman/에밀리반캠프.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "아이온",
-          "src" : "./images/game/pcGame/아이온.jpg"
+          "name": "에밀리아 클라크",
+          "src": "./images/game/overseasWoman/에밀리아클라크.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "오버워치",
-          "src" : "./images/game/pcGame/오버워치.jpg"
+          "name": "에바 그린",
+          "src": "./images/game/overseasWoman/에바그린.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "워크래프트",
-          "src" : "./images/game/pcGame/워크래프트.jpg"
+          "name": "엠마 스톤",
+          "src": "./images/game/overseasWoman/엠마스톤.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "카트라이더",
-          "src" : "./images/game/pcGame/카트라이더.jpg"
+          "name": "엠마 왓슨",
+          "src": "./images/game/overseasWoman/엠마왓슨.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "피파 온라인",
-          "src" : "./images/game/pcGame/피파온라인.jpg"
+          "name": "엠버 허드",
+          "src": "./images/game/overseasWoman/엠버허드.jpg",
+          "isSelected": false
         },
 
         {
-          "name" : "하스스톤",
-          "src" : "./images/game/pcGame/하스스톤.jpg"
+          "name": "크리스틴 스튜어트",
+          "src": "./images/game/overseasWoman/크리스틴스튜어트.jpg",
+          "isSelected": false
+        }
+      ]
+    },
+
+    {
+      "index": 8,
+      "title": "PC게임 월드컵",
+      "img": "./images/game/pcGame/메이플스토리.jpg",
+      "items": [
+        {
+          "name": "겟앰프드",
+          "src": "./images/game/pcGame/겟앰프드.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "던전앤파이터",
+          "src": "./images/game/pcGame/던전앤파이터.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "로스트아크",
+          "src": "./images/game/pcGame/로스트아크.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "리그오브레전드",
+          "src": "./images/game/pcGame/롤.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "리니지",
+          "src": "./images/game/pcGame/리니지.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "메이플스토리",
+          "src": "./images/game/pcGame/메이플스토리.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "배틀그라운드",
+          "src": "./images/game/pcGame/배틀그라운드.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "사이퍼즈",
+          "src": "./images/game/pcGame/사이퍼즈.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "서든어택",
+          "src": "./images/game/pcGame/서든어택.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "스타크래프트",
+          "src": "./images/game/pcGame/스타크래프트.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "아이온",
+          "src": "./images/game/pcGame/아이온.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "오버워치",
+          "src": "./images/game/pcGame/오버워치.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "워크래프트",
+          "src": "./images/game/pcGame/워크래프트.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "카트라이더",
+          "src": "./images/game/pcGame/카트라이더.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "피파 온라인",
+          "src": "./images/game/pcGame/피파온라인.jpg",
+          "isSelected": false
+        },
+
+        {
+          "name": "하스스톤",
+          "src": "./images/game/pcGame/하스스톤.jpg",
+          "isSelected": false
         }
       ]
     }

@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import styles from './modal_game.module.css';
 
 
-const ModalGame = ({game, onProgress}) => {
+const ModalGame = ({ game }) => {
   const [items, setItems] = useState([...game.items]);
   const [displays, setDisplays] = useState([]);
   const [winners, setWinners] = useState([]);
+
+  
   useEffect(()=>{
     items.sort(() => Math.random() - 0.5);
     setDisplays([items[0], items[1]]);
@@ -25,7 +27,6 @@ const ModalGame = ({game, onProgress}) => {
       setWinners([...winners, picker]);
       setDisplays([items[2], items[3]]);
       setItems(items.slice(2));
-      onProgress("16강");
     }
   };
 

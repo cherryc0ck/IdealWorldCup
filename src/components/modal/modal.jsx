@@ -1,14 +1,8 @@
-import React  from 'react';
+import React   from 'react';
 import styles from './modal.module.css';
 import ModalGame from '../modalGame/modal_game';
-import Progressbar from '../progressbar/progressbar';
 
 const Modal = ({game, open, close, title}) => {
-
-  const onProgress = () => {
-    
-  };
-
   return (
     <div className={open ? `${styles.openModal}`:`${styles.modal}`}>
       {open ?(
@@ -17,9 +11,8 @@ const Modal = ({game, open, close, title}) => {
             {title}
             <button className={styles.headerBtn} onClick={close}>&times;</button>
           </header>
-          <ModalGame game={game} onProgress={onProgress} />
+          <ModalGame game={game} />
           <footer className={styles.footer}>
-            <Progressbar onProgress={onProgress} />
           </footer>
         </section>
       ): null}
