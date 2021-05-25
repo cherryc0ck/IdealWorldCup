@@ -4,7 +4,7 @@
 `#react` `#react-router` `#firebase` `#cloudinary` `#netlify`
 <br/>
 
-React로...(추가예정)
+React
 
 👁 [URL 바로가기](https://idealworldcup.netlify.app/)
 <br/>
