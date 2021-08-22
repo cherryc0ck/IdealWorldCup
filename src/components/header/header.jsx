@@ -66,6 +66,7 @@ const Title = styled.h1`
 const ImgContainer = styled.div`
   margin-top: 8px;
   border-top: 3px solid white;
+  
   @media screen and (max-width: 600px) {
     display: flex;
     justify-content: center;
